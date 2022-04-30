@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+.feature {
+  &_btn {
+    bottom: 34%;
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    height: 60px;
+    background-color: #88760e;
+    text-align: center;
+    left: 45%;
+
+    a {
+      font-size: 30px;
+      color: aliceblue
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out 0s;
+      box-shadow: 5px 10px 10px #505050;
+      opacity: 0.8;
+    }
+  }
+}
+=======
 button {
   border: none;
   outline: none;
@@ -16,3 +42,4 @@ button {
   }
 }
 
+>>>>>>> 4a2f1a72eebfffd5d1b259dc589da07201afa112
