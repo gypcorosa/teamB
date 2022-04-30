@@ -146,3 +146,29 @@ button {
 button:hover {
   background-color: #b39768;
 }
+
+.feature_btn {
+  bottom: 34%;
+  display: inline-block;
+  width: 10%;
+  position: relative;
+  height: 60px;
+  background-color: #88760e;
+  text-align: center;
+  left: 45%;
+}
+
+.feature_btn a {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.feature_btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+  opacity: 0.8;
+}
