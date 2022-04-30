@@ -251,11 +251,22 @@ footer {
     flex-direction: column;
     align-items: center;
     }
+}
 
+.access{
 
+&_top {
+    height: 310px;
 
+    &_title {
+        display: block;
+        width: 200px;
+margin: 0 auto;
+// vertical-align: auto;
+    }
 }
 
 
+}
 
 >>>>>>> 4a2f1a72eebfffd5d1b259dc589da07201afa112
