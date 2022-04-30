@@ -16,7 +16,7 @@ a {
   background-color: #BF92A8;
 }
 
-.header-inner {
+.header_inner {
   width: 100%;
   height: 110px;
   margin: 0 auto;
@@ -31,47 +31,18 @@ a {
           align-items: center;
 }
 
-.header-inner-logo {
+.header_inner_logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header-menu ul {
-  width: 100%;
-  display: table;
-}
-
-.header-menu ul li {
-  display: table-cell;
-  text-align: center;
-  padding: 2.5%;
-}
-
-.header-menu ul li a {
-  display: inline-block;
-  font-weight: bold;
-  width: 150px;
-  color: #fff;
-}
-
-.header-menu ul li a:hover {
-  color: #888;
-  border-bottom: solid 2px #ddd;
-}
-
-.header-menu ul li a span {
-  display: block;
-  margin-top: 5%;
-  font-size: 0.75rem;
-}
-
-.header-logo img {
+.header_logo img {
   display: block;
   width: 110px;
 }
 
-.header-title {
+.header_title {
   display: block;
   width: 300px;
   -webkit-box-align: center;
@@ -80,18 +51,88 @@ a {
   padding: 5%;
 }
 
-.header-title p {
+.header_title p {
   color: #fff;
 }
 
-.header-site-contact span, .header p {
+.header_site_contact span, .header p {
   color: #fff;
 }
 
-.header-site-contact p {
-  font-size: 24px;
+.header_site_contact p {
+  font-size: 1.2rem;
 }
 
-.toggle-menu-button {
+.toggle_menu_button {
   display: none;
+}
+
+.site_menu ul {
+  width: 100%;
+  display: table;
+}
+
+.site_menu ul li {
+  display: table-cell;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.site_menu ul li a {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 150px;
+  color: #fff;
+}
+
+.site_menu ul li a:hover {
+  color: #888;
+  border-bottom: solid 2px #ddd;
+}
+
+.site_menu ul li a span {
+  display: block;
+  margin-top: 5%;
+  font-size: 0.75rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #BF92A8;
+}
+
+.footer-inner {
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-color: #9E7E44;
+  display: inline-block;
+  min-width: 180px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  margin-right: 3%;
+  color: #fff;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #b39768;
 }
