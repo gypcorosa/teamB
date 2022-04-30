@@ -106,10 +106,21 @@ footer {
     flex-direction: column;
     align-items: center;
     }
+}
 
+.access{
 
+&_top {
+    height: 310px;
 
+    &_title {
+        display: block;
+        width: 200px;
+margin: 0 auto;
+// vertical-align: auto;
+    }
 }
 
 
+}
 
