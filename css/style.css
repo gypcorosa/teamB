@@ -3,6 +3,7 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   line-height: 2;
+<<<<<<< HEAD
 }
 
 a {
@@ -192,4 +193,138 @@ a {
   -webkit-box-shadow: 5px 10px 10px #505050;
           box-shadow: 5px 10px 10px #505050;
   opacity: 0.8;
+=======
+  background-color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background-color: #BF92A8;
+}
+
+.header_inner {
+  width: 100%;
+  height: 110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_inner_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_logo img {
+  display: block;
+  width: 110px;
+}
+
+.header_title {
+  display: block;
+  width: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+}
+
+.header_title p {
+  color: #fff;
+}
+
+.header_site_contact span, .header p {
+  color: #fff;
+}
+
+.header_site_contact p {
+  font-size: 1.2rem;
+}
+
+.toggle_menu_button {
+  display: none;
+}
+
+.site_menu ul {
+  width: 100%;
+  display: table;
+}
+
+.site_menu ul li {
+  display: table-cell;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.site_menu ul li a {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 150px;
+  color: #fff;
+}
+
+.site_menu ul li a:hover {
+  color: #888;
+  border-bottom: solid 2px #ddd;
+}
+
+.site_menu ul li a span {
+  display: block;
+  margin-top: 5%;
+  font-size: 0.75rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #BF92A8;
+}
+
+.footer-inner {
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-color: #9E7E44;
+  display: inline-block;
+  min-width: 180px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  margin-right: 3%;
+  color: #fff;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #b39768;
+>>>>>>> 4a2f1a72eebfffd5d1b259dc589da07201afa112
 }

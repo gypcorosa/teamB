@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .feature {
   &_btn {
     bottom: 34%;
@@ -22,3 +23,23 @@
     }
   }
 }
+=======
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-color: $gold;
+  display: inline-block;
+  min-width: 180px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  margin-right: 3%;
+  color: $white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+  &:hover {
+    background-color: $brightgold;
+  }
+}
+
+>>>>>>> 4a2f1a72eebfffd5d1b259dc589da07201afa112
