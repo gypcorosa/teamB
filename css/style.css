@@ -303,6 +303,113 @@ footer {
   font-size: 20px;
 }
 
+.diagnosis {
+  display: block;
+  position: relative;
+  width: 90%;
+  height: 120vh;
+  margin-left: 5%;
+}
+
+.diagnosis_title {
+  width: 100%;
+  height: 10vh;
+  background-color: #BF92A8;
+}
+
+.diagnosis_title p {
+  font-size: 40px;
+  padding-left: 5%;
+  padding-top: 1%;
+  color: #fff;
+}
+
+.diagnosis_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 82vh;
+  width: 100%;
+  margin-top: 2%;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.diagnosis_menu1 {
+  background: url(../img/Group130.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 49%;
+  height: 25vh;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_menu2 {
+  background: url(../img/unsplash_ILip77SbmOE.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 49%;
+  height: 25vh;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_menu3 {
+  background: url(../img/unsplash_gtkvIGeHAn4.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 49%;
+  height: 25vh;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_menu4 {
+  background: url(../img/23651448.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 49%;
+  height: 25vh;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_menu5 {
+  background: url(../img/unsplash_yIitNO2Bgdo.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 49%;
+  height: 25vh;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_menu6 {
+  background: url(../img/unsplash_i4OHxtxiMtk.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 49%;
+  height: 25vh;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_arr {
+  width: 10%;
+  margin-left: 85%;
+}
+
 button {
   border: none;
   outline: none;
@@ -341,6 +448,34 @@ button:hover {
 }
 
 .feature_btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+  opacity: 0.8;
+}
+
+.diagnosis_btn {
+  bottom: 34%;
+  display: inline-block;
+  width: 10%;
+  position: absolute;
+  height: 60px;
+  background-color: #9E7E44;
+  text-align: center;
+  left: 45%;
+  border-radius: 5px;
+  top: 80%;
+}
+
+.diagnosis_btn a {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.diagnosis_btn:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: all 0.3s ease-in-out 0s;
