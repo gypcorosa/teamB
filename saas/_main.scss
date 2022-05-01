@@ -4,6 +4,9 @@ body {
     font-size: 16px;
     line-height: 2;
     background-color: $white;
+    background: url(../img/bg13.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 a {
@@ -118,16 +121,6 @@ footer {
     overflow: hidden;
     background: url("../img/unsplash_csPvbh_E1uc.png") no-repeat center;
     background-size: cover;
-    &::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.25);
-    }
     }
 
     &_inner {
@@ -152,9 +145,150 @@ footer {
     }
     }
 
+   } 
 }
 
 
 
 
+.top {
+    width: 100%;
+    height: auto;
+        &_img {
+        background: url(../img/laugh-gc5d6341ee_1920.jpg) no-repeat;
+        width: 100%;
+        height: 97vh;
+        background-size: cover;
+        background-position: center;
+        }
+    &_txt {
+        display: inline-block;
+        width: 40%;
+        height: 10vh;
+        background-color: rgba(240, 248, 255, 0.627);
+        box-shadow: 10px 10px 0px #505050;
+        margin-left: 50%;
+        margin-top: 20%;
+        text-align: center;;
+            p {
+                font-size: 50px;
+                color: $gold;
+            }
+    }    
+    &_ander {
+        width: 100%;
+        height: 100vh;
+        .ander {
+            width: 90%;
+            height: 90vh;
+            margin-left: 5%;
+            &_title {
+                writing-mode: tb-rl;
+                width: 100%;
+                height: 72vh;
+                display: inline-block;
+                margin-top: 10%;
+                margin-left: -5%;
+                
+                p {
+                    font-size: 40px;
+                    letter-spacing: 5mm;
+                    color: $gold;
+                }
+            }
+            &_sbtitle {
+                width: 27%;
+                height: auto;
+                padding-left: 2%;
+                border-left: solid 5px $brightgold;
+                position: relative;
+                left: 45%;
+                bottom: 70%;
+                line-height: 15mm;
+                p {
+                    font-size: 40px;
+                }
+            }
+            &_txt {
+                width: 31%;
+                height: auto;
+                position: relative;
+                bottom: 60%;
+                left: 45%;
+                p {
+                    font-size: 20px;
+                }
+            }
+            &_img {
+                background: url(../img/unsplash_Bt7qAasDW5s.png) no-repeat;
+                width: 35%;
+                height: 68vh;
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                bottom: 130%;
+                left: 5%;
+                    &_txt {
+                    width: 100%;
+                    height: auto;
+                    margin-top: 125%;
+                    display: inline-block;
+                    text-align: center;
+                        p {
+                            font-size: 20px;
+                        }
+                    }
+            }
+        }
+    }
+}
+.feature {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    &_title {
+        width: 100%;
+        height: 10vh;
+        background-color: $main;
+            p {
+                font-size: 40px;
+                padding-left: 5%;
+                padding-top: 1%;
+                color: $white;
+            }
+    }
+    &_list {
+        display: flex;
+        list-style:none;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    &_item {
+        width: 25%;
+        height: 50vh;
+    }
+    li:first-child {
+        border-right: solid 1px $brightgold;
+        padding-right: 5%;
+    }
+    li:last-child {
+        border-left: solid 1px $brightgold;
+        padding-left: 5%;
+    }
+    &_nbr {
+        font-size: 40px;
+        color: $brightgold;
+    }
+    &_sbutitle {
+        font-size: 30px;
+        color: $brightgold;
+    }
+    &_txt {
+        padding-top: 5%;
+        font-size: 20px;
+    }
 }

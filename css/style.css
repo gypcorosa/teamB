@@ -4,6 +4,9 @@ body {
   font-size: 16px;
   line-height: 2;
   background-color: #fff;
+  background: url(../img/bg13.png) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 a {
@@ -127,17 +130,6 @@ footer {
   background-size: cover;
 }
 
-.access_top_wrapper::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
 .access_top_inner {
   position: absolute;
   text-align: center;
@@ -158,6 +150,178 @@ footer {
   font-size: 2.5rem;
   font-weight: 700;
   color: #ddd;
+}
+
+.top {
+  width: 100%;
+  height: auto;
+}
+
+.top_img {
+  background: url(../img/laugh-gc5d6341ee_1920.jpg) no-repeat;
+  width: 100%;
+  height: 97vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.top_txt {
+  display: inline-block;
+  width: 40%;
+  height: 10vh;
+  background-color: rgba(240, 248, 255, 0.627);
+  -webkit-box-shadow: 10px 10px 0px #505050;
+          box-shadow: 10px 10px 0px #505050;
+  margin-left: 50%;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.top_txt p {
+  font-size: 50px;
+  color: #9E7E44;
+}
+
+.top_ander {
+  width: 100%;
+  height: 100vh;
+}
+
+.top_ander .ander {
+  width: 90%;
+  height: 90vh;
+  margin-left: 5%;
+}
+
+.top_ander .ander_title {
+  -webkit-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: tb-rl;
+  width: 100%;
+  height: 72vh;
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: -5%;
+}
+
+.top_ander .ander_title p {
+  font-size: 40px;
+  letter-spacing: 5mm;
+  color: #9E7E44;
+}
+
+.top_ander .ander_sbtitle {
+  width: 27%;
+  height: auto;
+  padding-left: 2%;
+  border-left: solid 5px #b39768;
+  position: relative;
+  left: 45%;
+  bottom: 70%;
+  line-height: 15mm;
+}
+
+.top_ander .ander_sbtitle p {
+  font-size: 40px;
+}
+
+.top_ander .ander_txt {
+  width: 31%;
+  height: auto;
+  position: relative;
+  bottom: 60%;
+  left: 45%;
+}
+
+.top_ander .ander_txt p {
+  font-size: 20px;
+}
+
+.top_ander .ander_img {
+  background: url(../img/unsplash_Bt7qAasDW5s.png) no-repeat;
+  width: 35%;
+  height: 68vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  bottom: 130%;
+  left: 5%;
+}
+
+.top_ander .ander_img_txt {
+  width: 100%;
+  height: auto;
+  margin-top: 125%;
+  display: inline-block;
+  text-align: center;
+}
+
+.top_ander .ander_img_txt p {
+  font-size: 20px;
+}
+
+.feature {
+  display: block;
+  position: relative;
+  width: 90%;
+  height: 90vh;
+  margin-left: 5%;
+}
+
+.feature_title {
+  width: 100%;
+  height: 10vh;
+  background-color: #BF92A8;
+}
+
+.feature_title p {
+  font-size: 40px;
+  padding-left: 5%;
+  padding-top: 1%;
+  color: #fff;
+}
+
+.feature_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.feature_item {
+  width: 25%;
+  height: 50vh;
+}
+
+.feature li:first-child {
+  border-right: solid 1px #b39768;
+  padding-right: 5%;
+}
+
+.feature li:last-child {
+  border-left: solid 1px #b39768;
+  padding-left: 5%;
+}
+
+.feature_nbr {
+  font-size: 40px;
+  color: #b39768;
+}
+
+.feature_sbutitle {
+  font-size: 30px;
+  color: #b39768;
+}
+
+.feature_txt {
+  padding-top: 5%;
+  font-size: 20px;
 }
 
 button {
@@ -183,11 +347,13 @@ button:hover {
   bottom: 34%;
   display: inline-block;
   width: 10%;
-  position: relative;
+  position: absolute;
   height: 60px;
-  background-color: #88760e;
+  background-color: #9E7E44;
   text-align: center;
   left: 45%;
+  border-radius: 5px;
+  top: 80%;
 }
 
 .feature_btn a {
