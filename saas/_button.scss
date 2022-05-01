@@ -42,3 +42,28 @@ button {
   }
 }
 
+.diagnosis {
+  &_btn {
+    bottom: 34%;
+    display: inline-block;
+    width: 10%;
+    position: absolute;
+    height: 60px;
+    background-color: $gold;
+    text-align: center;
+    left: 45%;
+    border-radius: 5px;
+    top: 80%;
+    a {
+      font-size: 30px;
+      color: aliceblue
+    }
+    
+    &:hover {
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out 0s;
+      box-shadow: 5px 10px 10px #505050;
+      opacity: 0.8;
+    }
+  }
+}

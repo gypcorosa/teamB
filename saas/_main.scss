@@ -269,3 +269,90 @@ margin: 0 auto;
         font-size: 20px;
     }
 }
+.diagnosis {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 120vh;
+    margin-left: 5%;
+    &_title {
+        width: 100%;
+        height: 10vh;
+        background-color: $main;
+    
+        p {
+            font-size: 40px;
+            padding-left: 5%;
+            padding-top: 1%;
+            color: $white;
+        }
+    }
+    &_list {
+        display: flex;
+        height: 82vh;
+        width: 100%;
+        margin-top: 2%;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    &_menu1 {
+        background: url(../img/Group130.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        width: 49%;
+        height: 25vh;
+        box-shadow: 5px 10px 10px #505050;
+    }
+    &_menu2 {
+        background: url(../img/unsplash_ILip77SbmOE.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        width: 49%;
+        height: 25vh;
+        box-shadow: 5px 10px 10px #505050;
+    }
+    &_menu3 {
+        background: url(../img/unsplash_gtkvIGeHAn4.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 49%;
+    height: 25vh;
+    box-shadow: 5px 10px 10px #505050;
+    }
+    &_menu4 {
+        background: url(../img/23651448.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 49%;
+    height: 25vh;
+    box-shadow: 5px 10px 10px #505050;
+    }
+    &_menu5 {
+        background: url(../img/unsplash_yIitNO2Bgdo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    width: 49%;
+    height: 25vh;
+    box-shadow: 5px 10px 10px #505050;
+    }
+    &_menu6 {
+        background: url(../img/unsplash_i4OHxtxiMtk.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        width: 49%;
+        height: 25vh;
+        box-shadow: 5px 10px 10px #505050;
+    }
+    &_arr {
+        width: 10%;
+        margin-left: 85%;
+    }
+}
