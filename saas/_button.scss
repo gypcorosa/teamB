@@ -20,11 +20,13 @@ button {
     bottom: 34%;
     display: inline-block;
     width: 10%;
-    position: relative;
+    position: absolute;
     height: 60px;
-    background-color: #88760e;
+    background-color: $gold;
     text-align: center;
     left: 45%;
+    border-radius: 5px;
+    top: 80%;
 
     a {
       font-size: 30px;
