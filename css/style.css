@@ -718,7 +718,7 @@ footer {
   margin-top: 25px;
 }
 
-.contact {
+.contact_area {
   width: 930px;
   max-width: 90%;
   margin-top: 75px;
@@ -760,4 +760,20 @@ footer {
 
 .form_area dd {
   width: calc(100% - 200px);
+  padding: 15px 0;
+}
+
+.form_area .input-text {
+  width: 100%;
+  max-width: 280px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.message {
+  width: 90%;
+  height: 260px;
+  padding: 10px;
+  line-height: 1.5;
 }
