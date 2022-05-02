@@ -14,92 +14,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-  width: 100%;
-  background-color: #BF92A8;
-}
-
-.header_inner {
-  width: 100%;
-  height: 110px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header_inner_logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.header_logo img {
-  display: block;
-  width: 110px;
-}
-
-.header_title {
-  display: block;
-  width: 300px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 5%;
-}
-
-.header_title p {
-  color: #fff;
-}
-
-.header_site_contact span, .header p {
-  color: #fff;
-}
-
-.header_site_contact p {
-  font-size: 1.2rem;
-}
-
-.toggle_menu_button {
-  display: none;
-}
-
-.site_menu ul {
-  width: 100%;
-  display: table;
-}
-
-.site_menu ul li {
-  display: table-cell;
-  text-align: center;
-  padding: 2.5%;
-}
-
-.site_menu ul li a {
-  display: inline-block;
-  font-size: 1.2rem;
-  font-weight: 700;
-  width: 150px;
-  color: #fff;
-}
-
-.site_menu ul li a:hover {
-  color: #888;
-  border-bottom: solid 2px #ddd;
-}
-
-.site_menu ul li a span {
-  display: block;
-  margin-top: 5%;
-  font-size: 0.75rem;
-}
-
 footer {
   width: 100%;
   background-color: #BF92A8;
@@ -504,4 +418,91 @@ button:hover {
   -webkit-box-shadow: 5px 10px 10px #505050;
           box-shadow: 5px 10px 10px #505050;
   opacity: 0.8;
+}
+
+.header {
+  width: 100%;
+  background-color: #BF92A8;
+}
+
+.header_inner {
+  width: 100%;
+  height: 110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_inner_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_logo img {
+  display: block;
+  width: 110px;
+}
+
+.header_title {
+  display: block;
+  width: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+}
+
+.header_title p {
+  color: #fff;
+}
+
+.header_site_contact span,
+.header p {
+  color: #fff;
+}
+
+.header_site_contact p {
+  font-size: 1.2rem;
+}
+
+.toggle_menu_button {
+  display: none;
+}
+
+.site_menu ul {
+  width: 100%;
+  display: table;
+}
+
+.site_menu ul li {
+  display: table-cell;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.site_menu ul li a {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 150px;
+  color: #fff;
+}
+
+.site_menu ul li a:hover {
+  color: #888;
+  border-bottom: solid 2px #ddd;
+}
+
+.site_menu ul li a span {
+  display: block;
+  margin-top: 5%;
+  font-size: 0.75rem;
 }
