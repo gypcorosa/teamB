@@ -396,6 +396,52 @@ a {
   font-size: 20px;
 }
 
+.contact_img {
+  width: 100%;
+  height: 65vh;
+  background: url(../img/Desktop-27.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact_txt {
+  display: inline-block;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.contact_txt p {
+  font-size: 30px;
+  color: #fff;
+}
+
+.contact_nbu {
+  margin-left: 45%;
+}
+
+.contact_nbu p {
+  font-size: 40px;
+  color: #fff;
+}
+
+.contact_nbu_sbu {
+  margin-left: 50%;
+}
+
+.contact_nbu_sbu p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.contact_sbu {
+  margin-left: 52%;
+}
+
+.contact_sbu p {
+  font-size: 25px;
+  color: #fff;
+}
+
 button {
   border: none;
   outline: none;
@@ -462,6 +508,34 @@ button:hover {
 }
 
 .diagnosis_btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+  opacity: 0.8;
+}
+
+.contact_btn {
+  bottom: 34%;
+  display: inline-block;
+  width: 30%;
+  height: 145px;
+  background-color: #9E7E44;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 3%;
+  margin-left: 40%;
+  padding-top: 3%;
+}
+
+.contact_btn a {
+  font-size: 45px;
+  color: aliceblue;
+}
+
+.contact_btn:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: all 0.3s ease-in-out 0s;

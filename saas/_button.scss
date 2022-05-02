@@ -67,3 +67,29 @@ button {
     }
   }
 }
+.contact {
+    &_btn {
+      bottom: 34%;
+      display: inline-block;
+      width: 30%;
+      height: 145px;
+      background-color: #9E7E44;
+      text-align: center;
+      border-radius: 5px;
+      margin-top: 3%;
+      margin-left: 40%;
+      padding-top: 3%;
+    
+      a {
+        font-size: 45px;
+        color: aliceblue
+      }
+    
+      &:hover {
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out 0s;
+        box-shadow: 5px 10px 10px #505050;
+        opacity: 0.8;
+      }
+    }
+}
