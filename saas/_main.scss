@@ -221,7 +221,7 @@ a {
     box-shadow: 5px 10px 10px #505050;
     }
     &_menu5 {
-        background: url(../img/unsplash_yIitNO2Bgdo.png) no-repeat;
+        background: url(../img/23651447.png) no-repeat;
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -230,7 +230,7 @@ a {
     box-shadow: 5px 10px 10px #505050;
     }
     &_menu6 {
-        background: url(../img/unsplash_i4OHxtxiMtk.png) no-repeat;
+        background: url(../img/4.png) no-repeat;
         background-size: cover;
         background-position: center;
         display: inline-block;
@@ -243,4 +243,92 @@ a {
         margin-left: 85%;
     }
 
+}
+.problem {
+        display: block;
+        position: relative;
+        width: 90%;
+        height: 90vh;
+        margin-left: 5%;
+        
+        &_title {
+            width: 100%;
+            height: 10vh;
+            background-color: $main;
+        
+            p {
+                font-size: 40px;
+                padding-left: 5%;
+                padding-top: 1%;
+                color: $white;
+            }
+        }
+        
+        &_list {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+        }
+        &_img1 {
+            width: 30%;
+            height: 70vh;
+            border: solid 1px;
+            border-radius: 5px;
+            .img1 {
+                background: url(../img/22530028.jpg) no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 50%;
+                height: 40vh;
+                margin-left: 25%;
+            }
+        }
+        &_img2 {
+            width: 30%;
+            height: 70vh;
+            border: solid 1px;
+            border-radius: 5px;
+            .img2 {
+                background: url(../img/22556782.jpg) no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 50%;
+                height: 40vh;
+                margin-left: 25%;
+            }
+        }
+        &_img3 {
+            width: 30%;
+            height: 70vh;
+            border: solid 1px;
+            border-radius: 5px;
+            .img3 {
+                background: url(../img/22634543.jpg) no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 61%;
+                height: 40vh;
+                margin-left: 21%;
+            }
+        }
+        &_txt_list {
+            display: inline-block;
+            margin-top: 220%;
+            list-style: disc;
+            li {
+                font-size: 20px;
+            }
+        }
+        &_txt_list3 {
+            display: inline-block;
+            width: 120%;
+            margin-top: 180%;
+            list-style: disc;
+            li {
+                font-size: 20px;
+            }
+        }
 }

@@ -267,7 +267,7 @@ a {
 }
 
 .diagnosis_menu5 {
-  background: url(../img/unsplash_yIitNO2Bgdo.png) no-repeat;
+  background: url(../img/23651447.png) no-repeat;
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -278,7 +278,7 @@ a {
 }
 
 .diagnosis_menu6 {
-  background: url(../img/unsplash_i4OHxtxiMtk.png) no-repeat;
+  background: url(../img/4.png) no-repeat;
   background-size: cover;
   background-position: center;
   display: inline-block;
@@ -291,6 +291,109 @@ a {
 .diagnosis_arr {
   width: 10%;
   margin-left: 85%;
+}
+
+.problem {
+  display: block;
+  position: relative;
+  width: 90%;
+  height: 90vh;
+  margin-left: 5%;
+}
+
+.problem_title {
+  width: 100%;
+  height: 10vh;
+  background-color: #BF92A8;
+}
+
+.problem_title p {
+  font-size: 40px;
+  padding-left: 5%;
+  padding-top: 1%;
+  color: #fff;
+}
+
+.problem_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.problem_img1 {
+  width: 30%;
+  height: 70vh;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+.problem_img1 .img1 {
+  background: url(../img/22530028.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 40vh;
+  margin-left: 25%;
+}
+
+.problem_img2 {
+  width: 30%;
+  height: 70vh;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+.problem_img2 .img2 {
+  background: url(../img/22556782.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 40vh;
+  margin-left: 25%;
+}
+
+.problem_img3 {
+  width: 30%;
+  height: 70vh;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+.problem_img3 .img3 {
+  background: url(../img/22634543.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 61%;
+  height: 40vh;
+  margin-left: 21%;
+}
+
+.problem_txt_list {
+  display: inline-block;
+  margin-top: 220%;
+  list-style: disc;
+}
+
+.problem_txt_list li {
+  font-size: 20px;
+}
+
+.problem_txt_list3 {
+  display: inline-block;
+  width: 120%;
+  margin-top: 180%;
+  list-style: disc;
+}
+
+.problem_txt_list3 li {
+  font-size: 20px;
 }
 
 button {
@@ -350,7 +453,7 @@ button:hover {
   text-align: center;
   left: 45%;
   border-radius: 5px;
-  top: 80%;
+  top: 85%;
 }
 
 .diagnosis_btn a {
