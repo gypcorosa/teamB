@@ -654,8 +654,15 @@ footer {
           align-items: center;
 }
 
+.footer_logo img {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 .site_menu {
-  width: 40%;
+  width: 50%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -663,6 +670,7 @@ footer {
 }
 
 .copyright {
+  margin-top: 20px;
   text-align: center;
 }
 
