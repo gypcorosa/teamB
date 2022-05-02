@@ -111,21 +111,44 @@ footer {
     }
 }
 
-.access{
+.access {
 
 &_top {
-    height: 310px;
-
-    &_title {
-        display: block;
-        width: 200px;
-margin: 0 auto;
-// vertical-align: auto;
+    &_wrapper {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    background: url("../img/unsplash_csPvbh_E1uc.png") no-repeat center;
+    background-size: cover;
     }
+
+    &_inner {
+        position: absolute;
+        text-align: center;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+
+    h1 {
+        font-size: 4.5rem;
+        font-weight: 700;
+        color: #ddd;
+    }
+
+    p {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #ddd;
+    }
+    }
+
+   } 
 }
 
 
-}
 
 
 .top {
@@ -268,6 +291,7 @@ margin: 0 auto;
         padding-top: 5%;
         font-size: 20px;
     }
+
 }
 .diagnosis {
     display: block;
@@ -355,4 +379,5 @@ margin: 0 auto;
         width: 10%;
         margin-left: 85%;
     }
+
 }
