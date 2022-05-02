@@ -1,0 +1,80 @@
+.header {
+  width: 100%;
+  background-color: $main;
+
+
+  &_inner {
+    width: 100%;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_logo {
+      display: flex;
+    }
+  }
+
+
+  &_logo img {
+    display: block;
+    width: 110px;
+  }
+
+  &_title {
+    display: block;
+    width: 300px;
+    align-items: center;
+    padding: 5%;
+
+    p {
+      color: $white;
+    }
+  }
+
+  &_site_contact span,
+  p {
+    color: $white;
+  }
+
+  &_site_contact p {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+.toggle_menu_button {
+  display: none;
+}
+
+.site_menu ul {
+  width: 100%;
+  display: table;
+
+  li {
+    display: table-cell;
+    text-align: center;
+    padding: 2.5%;
+
+    a {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 700;
+      width: 150px;
+      color: $white;
+
+      &:hover {
+        color: #888;
+        border-bottom: solid 2px #ddd;
+      }
+
+      span {
+        display: block;
+        margin-top: 5%;
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
