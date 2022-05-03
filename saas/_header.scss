@@ -16,7 +16,6 @@
     }
   }
 
-
   &_logo img {
     display: block;
     width: 110px;
@@ -33,36 +32,46 @@
     }
   }
 
-  &_site_contact span,
-  p {
+  &_site {
+  
+  &_contact {
+    display: inline-block;
+    width: 400px;
+    padding: 0 2.5%;
+
+  & span,p {
     color: $white;
   }
 
-  &_site_contact p {
-    font-size: 1.2rem;
+  & p {
+    font-size: 1.5rem;
   }
+  }
+
+  &_menu {
+    width: 100%;
+  }
+
+}
 }
 
+.site_menu {
 
-
-.toggle_menu_button {
-  display: none;
-}
-
-.site_menu ul {
+ & ul {
   width: 100%;
-  display: table;
-
-  li {
-    display: table-cell;
+  display: flex;
+  justify-content: right;
+ 
+  & li {
+    display: inline-block;
     text-align: center;
     padding: 2.5%;
-
-    a {
+  
+   & a {
       display: inline-block;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-weight: 700;
-      width: 150px;
+      width: 200px;
       color: $white;
 
       &:hover {
@@ -70,11 +79,17 @@
         border-bottom: solid 2px #ddd;
       }
 
-      span {
+      & span {
         display: block;
         margin-top: 5%;
         font-size: 0.75rem;
       }
     }
   }
+ }
+}
+
+
+.toggle_menu_button {
+  display: none;
 }
