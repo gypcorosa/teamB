@@ -23,9 +23,14 @@ footer {
   }
 
   .site_menu {
-    width: 50%;
+    width: 40%;
     justify-content: space-between;
     margin: 0 auto;
+
+    &li {
+      display: block;
+      width: 15%;
+    }
   }
 
   .copyright {
