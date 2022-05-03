@@ -2,7 +2,6 @@
   width: 100%;
   background-color: $main;
 
-
   &_inner {
     width: 100%;
     height: 110px;
@@ -20,11 +19,13 @@
   &_logo img {
     display: block;
     width: 110px;
+    position: fixed;
+    z-index: 5;
   }
 
   &_title {
     display: block;
-    width: 300px;
+    width: 100%;
     align-items: center;
     padding: 5%;
 
