@@ -468,7 +468,6 @@ a {
   content: "";
 }
 
-<<<<<<< HEAD
 .a_top {
   position: relative;
   display: block;
@@ -576,13 +575,7 @@ a {
 
 .a_adr_adr_txt p {
   font-size: 30px;
-=======
-.breadcrumb_color {
-  color: #BF92A8;
-  font-weight: 700;
->>>>>>> 16b2e27a172c51e4a3038d566e653ecb925f76de
 }
-
 button {
   border: none;
   outline: none;
