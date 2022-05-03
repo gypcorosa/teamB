@@ -1,3 +1,8 @@
+// * {
+//     margin: 0px;
+//     padding: 0px;
+// }
+
 body {
     color: #505050;
     font-family: "Noto Sans JP", sans-serif;
@@ -377,27 +382,24 @@ a {
     width: 90%;
     margin: 2.5% auto 0;
 
-    &_list {
-        display: flex;
-        list-style: none;
-    }
 
-    &_item {
-        font-size: 1.25rem;
+&_list {
+    display: flex;
+}
 
-        &::after {
-            content: ">";
-            padding: 0 10px;
-            font-size: 1.25rem;
-        }
+&_item {
+    font-size: 1.25rem;
 
-        &:last-child::after {
-            content: "";
-        }
+    &::after {
+    content: ">";
+    padding: 0 10px;
+    font-size: 1.25rem;
+}
 
-
-    }
-
+&:last-child::after {
+    content: "";
+}
+}
 
 }
 
@@ -496,3 +498,8 @@ a {
 
     
 }
+&_color {
+    color: $main;
+    font-weight: 700;
+}
+
