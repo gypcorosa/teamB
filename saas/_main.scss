@@ -372,3 +372,31 @@ a {
         }
     }
 }
+
+.breadcrumb {
+    width: 90%;
+    margin: 2.5% auto 0;
+
+    &_list {
+        display: flex;
+        list-style: none;
+    }
+
+    &_item {
+        font-size: 1.25rem;
+
+        &::after {
+            content: ">";
+            padding: 0 10px;
+            font-size: 1.25rem;
+        }
+
+        &:last-child::after {
+            content: "";
+        }
+
+
+    }
+
+
+}
