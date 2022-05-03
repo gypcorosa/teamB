@@ -452,7 +452,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
 }
 
 .breadcrumb_item {
@@ -467,6 +466,11 @@ a {
 
 .breadcrumb_item:last-child::after {
   content: "";
+}
+
+.breadcrumb_color {
+  color: #BF92A8;
+  font-weight: 700;
 }
 
 button {
@@ -612,13 +616,11 @@ button:hover {
 .header_logo img {
   display: block;
   width: 110px;
-  position: fixed;
-  z-index: 5;
 }
 
 .header_title {
   display: block;
-  width: 100%;
+  width: 300px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -738,13 +740,13 @@ footer {
 }
 
 .access_top_inner h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #888;
 }
 
 .access_top_inner p {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #888;
 }
@@ -752,8 +754,8 @@ footer {
 .access_top_inner p::after {
   content: '';
   display: block;
-  width: 200px;
-  height: 3px;
+  width: 150px;
+  height: 1px;
   background-color: #888;
 }
 
