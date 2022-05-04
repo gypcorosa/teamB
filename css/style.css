@@ -468,6 +468,10 @@ a {
   content: "";
 }
 
+.breadcrumb_color {
+  color: #BF92A8;
+}
+
 .a_top {
   position: relative;
   display: block;
