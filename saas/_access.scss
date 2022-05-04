@@ -17,31 +17,30 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-
-
-      h1 {
-        font-size: 50px;
-        // font-weight: 700;
-        color: $silver;
       }
 
-      p {
-        font-size: 40px;
-        // font-weight: 700;
+      &_title {
+        font-size: 50px;
         color: $silver;
-
+        
         &::after {
           content: '';
           display: block;
-          width: 150px;
+          width: 200px;
           height: 1px;
           background-color: $silver;
         }
       }
+      &_subtitle {
+        font-size: 40px;
+        color: $silver;
+
+        
+      }
     }
 
   }
-}
+
 
 .portation {
   display: block;
@@ -113,8 +112,9 @@
 
 &_txt_1 {
 text-align: center;
-font-size: 20px;
+font-size: 24px;
 margin-top: 5%;
+line-height: 1.5;
 }
 }
 
@@ -122,8 +122,8 @@ margin-top: 5%;
 .form_area {
   background-color: $white;
   border: 1px solid $silver;
-  margin-top: 25px;
-  margin-bottom: 50px;
+  margin-top: 72px;
+  margin-bottom: 72px;
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +131,7 @@ margin-top: 5%;
   dt {
     width: 200px;
     padding: 15px 0;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 24px;
 
@@ -156,7 +156,6 @@ margin-top: 5%;
   .input-text {
     width: 100%;
     max-width: 280px;
-    height: 40px;
     padding-left: 10px;
     padding-right: 10px;
   } 
@@ -190,11 +189,7 @@ margin-top: 5%;
     &:last-child::after {
       content: "";
     }
-
-    
   }
-
-
 }
 
 
