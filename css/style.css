@@ -649,6 +649,10 @@ button:hover {
   width: 100%;
 }
 
+.drawer {
+  visibility: hidden;
+}
+
 .site_menu ul {
   width: 100%;
   display: -webkit-box;
@@ -688,9 +692,41 @@ button:hover {
   display: none;
 }
 
+@media screen and (max-width: 768px) {
+  .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-top: solid 4px #888;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .drawer::before, .drawer::after {
+    content: "";
+    display: block;
+    width: 24px;
+    background: #888;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .drawer::before {
+    top: 6px;
+  }
+  .drawer::after {
+    top: 15px;
+  }
+}
+
 .footer {
   width: 100%;
   background-color: #BF92A8;
+  margin-top: 100px;
 }
 
 .footer_inner {
@@ -876,7 +912,7 @@ button:hover {
 
 .contact_area {
   width: 90%;
-  margin-top: 75px;
+  margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -891,8 +927,8 @@ button:hover {
 .form_area {
   background-color: #fff;
   border: 1px solid #888;
-  margin-top: 72px;
-  margin-bottom: 72px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;

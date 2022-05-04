@@ -55,6 +55,10 @@
 }
 }
 
+.drawer {
+  visibility: hidden;
+}
+
 .site_menu {
 
  & ul {
@@ -93,3 +97,45 @@
 .toggle_menu_button {
   display: none;
 }
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {
+
+  .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-top: solid 4px $silver;
+    cursor: pointer;
+    z-index: 100;
+  
+
+  &::before, &::after {
+    content: "";
+    display: block;
+    width: 24px;
+    background: $silver;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+  }
+
+  &::before {
+    top: 6px;
+  }
+
+  &::after {
+    top: 15px;
+  }
+
+}
+
+}
+@media screen and (max-width: 480px) {}
+  
+  
+  
