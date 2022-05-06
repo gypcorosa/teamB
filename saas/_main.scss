@@ -38,7 +38,7 @@ a {
         margin-left: 50%;
         margin-top: 20%;
         text-align: center;;
-            p {
+            h1 {
                 font-size: 50px;
                 color: $gold;
             }
@@ -407,6 +407,7 @@ a {
 
 }
 
+////////// ///////////ABOUTページ/////////////////
 .a_top {
     position: relative;
     display: block;
@@ -425,7 +426,7 @@ a {
             margin-left: 40%;
             margin-top: 7%;
             text-align: center;
-            p {
+            h1 {
                 font-size: 50px;
                 color: $gold;
             }
@@ -435,7 +436,7 @@ a {
             width: 20%;
             margin-left: 40%;
             text-align: center;
-            p {
+            h2 {
                 font-size: 40px;
                 color: $gold;
             }
@@ -600,4 +601,168 @@ a {
             }
         }
     }
+}
+
+////////// ///////////MENUページ/////////////////
+
+.a_menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 70vh;
+    &_img {
+        display: inline-block;
+        width: 100%;
+        height: 50vh;
+        background: url(../img/unsplash_B_sK_xgzwVA.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 5%;
+    }
+    &_txt {
+        display: inline-block;
+        width: 20%;
+        border-bottom: solid 2px #505050;
+        margin-left: 40%;
+        margin-top: 7%;
+        text-align: center;
+    
+        h1 {
+            font-size: 50px;
+            color: $gold;
+        }
+    }
+    
+    &_sub {
+        display: inline-block;
+        width: 20%;
+        margin-left: 40%;
+        text-align: center;
+    
+        h2 {
+            font-size: 40px;
+            color: $gold;
+        }
+    }
+}
+.a_purpose {
+    display: block;
+    width: 90%;
+    height: 30vh;
+    margin-left: 5%;
+    &_title {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+        }
+    }
+    &_list {
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &_txt {
+            list-style:none;
+            display: inline-block;
+            border: solid 1px #505050;
+            border-radius: 5px;
+            margin-top: 1%;
+            text-align: center;
+            width: 32%;
+            height: auto;
+            box-shadow: 5px 5px 10px #505050;
+            p {
+                font-size: 30px;
+            }
+        }
+    }
+}
+.a_diagnosis {
+    display: block;
+    width: 90%;
+    height: 250vh;
+    margin-left: 5%;
+    
+    &_title {
+        width: 100%;
+        height: 10vh;
+        background-color: $main;
+        
+        p {
+            font-size: 40px;
+            padding-left: 5%;
+            padding-top: 1%;
+            color: $white;
+        }
+    }
+    &_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 5%;
+        height: 220vh;
+    }
+    &_contents {
+        list-style:none;
+        display: inline-block;
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+    &_img {
+        background: url(../img/unsplash_e3OUQGT9bWU.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+        height: 40vh;
+    }
+    &_sub {
+        display: inline-block;
+        height: auto;
+        padding-left: 1%;
+        border-left: solid 5px $main;
+        position: absolute;
+        top: 20%;
+        left: 45%;
+        p {
+            font-size: 30px;
+        }
+    }
+    &_txt {
+        display: inline-block;
+        height: auto;
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        
+        p {
+            font-size: 20px;
+        }
+    }
+}
+.price_list {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    p {
+        font-size: 30px;
+        text-align: center;
+    }
+    table {
+        border: solid 1px #505050;
+        width: 100%;
+        height: 25vh;
+        thead {
+            border: solid 1px #505050;
+            height: 5vh;
+            tr {
+                margin: 5%;
+            }
+        }
+    }
+
 }
