@@ -40,7 +40,7 @@ a {
   text-align: center;
 }
 
-.top_txt p {
+.top_txt h1 {
   font-size: 50px;
   color: #9E7E44;
 }
@@ -495,7 +495,7 @@ a {
   text-align: center;
 }
 
-.a_top_txt p {
+.a_top_txt h1 {
   font-size: 50px;
   color: #9E7E44;
 }
@@ -507,7 +507,7 @@ a {
   text-align: center;
 }
 
-.a_top_sub p {
+.a_top_sub h2 {
   font-size: 40px;
   color: #9E7E44;
 }
@@ -699,6 +699,200 @@ a {
 
 .a_flow_box_txt p {
   font-size: 20px;
+}
+
+.a_menu {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 70vh;
+}
+
+.a_menu_img {
+  display: inline-block;
+  width: 100%;
+  height: 50vh;
+  background: url(../img/unsplash_B_sK_xgzwVA.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5%;
+}
+
+.a_menu_txt {
+  display: inline-block;
+  width: 20%;
+  border-bottom: solid 2px #505050;
+  margin-left: 40%;
+  margin-top: 7%;
+  text-align: center;
+}
+
+.a_menu_txt h1 {
+  font-size: 50px;
+  color: #9E7E44;
+}
+
+.a_menu_sub {
+  display: inline-block;
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+.a_menu_sub h2 {
+  font-size: 40px;
+  color: #9E7E44;
+}
+
+.a_purpose {
+  display: block;
+  width: 90%;
+  height: 30vh;
+  margin-left: 5%;
+}
+
+.a_purpose_title {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.a_purpose_title h2 {
+  font-size: 30px;
+}
+
+.a_purpose_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.a_purpose_list_txt {
+  list-style: none;
+  display: inline-block;
+  border: solid 1px #505050;
+  border-radius: 5px;
+  margin-top: 1%;
+  text-align: center;
+  width: 32%;
+  height: auto;
+  -webkit-box-shadow: 5px 5px 10px #505050;
+          box-shadow: 5px 5px 10px #505050;
+}
+
+.a_purpose_list_txt p {
+  font-size: 30px;
+}
+
+.a_diagnosis {
+  display: block;
+  width: 90%;
+  height: 250vh;
+  margin-left: 5%;
+}
+
+.a_diagnosis_title {
+  width: 100%;
+  height: 10vh;
+  background-color: #BF92A8;
+}
+
+.a_diagnosis_title p {
+  font-size: 40px;
+  padding-left: 5%;
+  padding-top: 1%;
+  color: #fff;
+}
+
+.a_diagnosis_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5%;
+  height: 220vh;
+}
+
+.a_diagnosis_contents {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.a_diagnosis_img {
+  background: url(../img/unsplash_e3OUQGT9bWU.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 40vh;
+}
+
+.a_diagnosis_sub {
+  display: inline-block;
+  height: auto;
+  padding-left: 1%;
+  border-left: solid 5px #BF92A8;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+
+.a_diagnosis_sub p {
+  font-size: 30px;
+}
+
+.a_diagnosis_txt {
+  display: inline-block;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+.a_diagnosis_txt p {
+  font-size: 20px;
+}
+
+.price_list {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.price_list p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.price_list table {
+  border: solid 1px #505050;
+  width: 100%;
+  height: 25vh;
+}
+
+.price_list table thead {
+  border: solid 1px #505050;
+  height: 5vh;
+}
+
+.price_list table thead tr {
+  margin: 5%;
 }
 
 button {
