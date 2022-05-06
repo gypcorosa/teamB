@@ -6,52 +6,73 @@
     display: flex;
     justify-content: space-between;
     background-color: $main;
+    align-items: center;
   
   &_title {
+    width: 25%;
     display: flex;
     align-items: center;
+    
 
     & p {
       color: $white;
+      padding-left: 3%;
     }
   } 
   }
-
-  
-
     &_logo img {
+      display: block;
       height: 110px;
       width: 110px;;
     }
+
+    &_title {
+      width: 100%;
+    }
   }
 
-#g-nav ul {
+#g-nav {
+  width:50%;
+
+   & ul {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 
   & li {
     display: inline-block;
-    text-align: center;
     padding: 2.5%;
-
+    
+    
     & a {
       display: inline-block;
-
       font-weight: bold;
+      font-size: 1.5rem;
+      color: $white;
     
     &:hover {
-      color: #888;
+      color: #ddd;
       border-bottom: solid 2px #ddd;
     }
 
     & span {
       display: block;
       margin-top: 5%;
-      font-size: 0.75rem;
+      font-size: 1rem;
+      color: $white;
+     justify-content: center;
+      ;
     }
   }
-
   }
+  }
+}
+
+.time {
+  font-size: 1.2rem;
+  color: $white
 }
 
 
@@ -124,6 +145,10 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: bold;
+}
+
+li.time {
+  visibility: hidden;
 }
 
 /*========= ボタンのためのCSS ===============*/
