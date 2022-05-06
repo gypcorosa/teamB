@@ -1009,10 +1009,63 @@ button:hover {
   margin: 0 auto;
 }
 
-#g-nav ul {
+.header_inner {
+  width: 100%;
+  height: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #BF92A8;
+}
+
+.header_inner_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_inner_title p {
+  color: #fff;
+}
+
+.header_logo img {
+  height: 110px;
+  width: 110px;
+}
+
+#g-nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#g-nav ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 2.5%;
+}
+
+#g-nav ul li a {
+  display: inline-block;
+  font-weight: bold;
+}
+
+#g-nav ul li a:hover {
+  color: #888;
+  border-bottom: solid 2px #ddd;
+}
+
+#g-nav ul li a span {
+  display: block;
+  margin-top: 5%;
+  font-size: 0.75rem;
 }
 
 @media screen and (max-width: 768px) {
