@@ -1033,94 +1033,91 @@ li.header_contact a:hover {
   color: #fff;
 }
 
-.header_inner {
-  width: 100%;
+#header {
+  color: #fff;
+  background-color: #BF92A8;
+}
+
+#header > .container {
   height: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #BF92A8;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.header_inner_title {
-  width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header_inner_title p {
-  color: #fff;
-  padding-left: 3%;
-}
-
-.header_logo img {
+.area_logo_header .logo {
   display: block;
+}
+
+.area_logo_header .logo img {
   height: 110px;
   width: 110px;
+  vertical-align: bottom;
 }
 
-.header_title {
+.header_title p {
+  display: block;
   width: 100%;
+  margin-left: 2%;
+}
+
+.header_tel {
+  display: block;
+  padding-left: 2%;
 }
 
 #g-nav {
-  width: 50%;
+  margin-left: auto;
 }
 
 #g-nav ul {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  padding-right: 3%;
+  width: 100%;
+}
+
+#g-nav ul a {
+  color: #fff;
+  list-style: none;
 }
 
 #g-nav ul li {
-  display: inline-block;
-  padding: 2.5%;
+  list-style: none;
 }
 
-#g-nav ul li a {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-#g-nav ul li a:hover {
-  color: #ddd;
-  border-bottom: solid 2px #ddd;
+#g-nav ul > li + li {
+  margin-left: 40px;
 }
 
 #g-nav ul li a span {
   display: block;
-  margin-top: 5%;
-  font-size: 1rem;
-  color: #fff;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.time {
+.btn_contact {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 64px;
+  background-color: #9E7E44;
+  border-radius: 5px;
+  padding: 0 48px;
+  position: relative;
+}
+
+.btn_contact a {
   font-size: 1.2rem;
-  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -1184,9 +1181,6 @@ li.header_contact a:hover {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: bold;
-  }
-  li.time {
-    visibility: hidden;
   }
   /*========= ボタンのためのCSS ===============*/
   .openbtn1 {
@@ -1256,7 +1250,7 @@ li.header_contact a:hover {
   }
   #header {
     width: 100%;
-    background: #333;
+    background: #BF92A8;
     color: #fff;
     text-align: center;
     padding: 20px;

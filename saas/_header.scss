@@ -1,81 +1,79 @@
 
-.header {
-  &_inner {
-    width: 100%;
-    height: 110px;
-    display: flex;
-    justify-content: space-between;
-    background-color: $main;
-    align-items: center;
-  
-  &_title {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    
+#header {
+  color: $white;
+  background-color: $main;
+}
 
-    & p {
-      color: $white;
-      padding-left: 3%;
-    }
-  } 
-  }
-    &_logo img {
-      display: block;
-      height: 110px;
-      width: 110px;;
-    }
+#header > .container {
+  height: 110px;
+  display: flex;
+  align-items: center;
+}
 
-    &_title {
-      width: 100%;
-    }
-  }
+.area_logo_header .logo {
+  display: block;
+}
+
+.area_logo_header .logo img{
+  height: 110px;
+  width: 110px;
+  vertical-align: bottom;
+}
+
+.header_title p {
+display: block;
+width: 100%;
+margin-left: 2%;
+}
+
+.header_tel {
+  display: block;
+  padding-left: 2%;
+}
+
 
 #g-nav {
-  width:50%;
+  margin-left: auto;
+}
 
-   & ul {
-  width: 100%;
+#g-nav ul {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  text-align: center;
-
-  & li {
-    display: inline-block;
-    padding: 2.5%;
-    
-    
-    & a {
-      display: inline-block;
-      font-weight: bold;
-      font-size: 1.5rem;
-      color: $white;
-    
-    &:hover {
-      color: #ddd;
-      border-bottom: solid 2px #ddd;
-    }
-
-    & span {
-      display: block;
-      margin-top: 5%;
-      font-size: 1rem;
-      color: $white;
-     justify-content: center;
-      ;
-    }
-  }
-  }
-  }
+  padding-right: 3%;
+  width: 100%;
 }
 
-.time {
-  font-size: 1.2rem;
-  color: $white
+#g-nav ul a {
+  color: #fff;
+  list-style: none;
 }
 
+#g-nav ul li {
+  list-style: none;
+}
 
+#g-nav ul > li + li {
+  margin-left: 40px;
+}
+
+#g-nav ul li a span {
+  display: block;
+}
+
+.btn_contact {
+  color: #000;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background-color: $gold;
+  border-radius: 5px;
+  padding: 0 48px ;
+  position: relative;
+}
+
+.btn_contact a {
+ font-size: 1.2rem; 
+}
 
 @media screen and (max-width: 768px) {
 
@@ -147,9 +145,7 @@
   font-weight: bold;
 }
 
-li.time {
-  visibility: hidden;
-}
+
 
 /*========= ボタンのためのCSS ===============*/
 .openbtn1 {
@@ -231,7 +227,7 @@ small {
 
 #header {
   width: 100%;
-  background: #333;
+  background: $main;
   color: #fff;
   text-align: center;
   padding: 20px;
