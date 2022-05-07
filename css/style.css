@@ -794,7 +794,7 @@ a {
 .a_diagnosis {
   display: block;
   width: 90%;
-  height: 250vh;
+  height: 280vh;
   margin-left: 5%;
 }
 
@@ -823,7 +823,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 5%;
-  height: 220vh;
+  height: 230vh;
 }
 
 .a_diagnosis_contents {
@@ -893,6 +893,40 @@ a {
 
 .price_list table thead tr {
   margin: 5%;
+}
+
+.price_list table thead tr th {
+  border: solid 1px #505050;
+  width: 8%;
+  text-align: center;
+  padding: 1%;
+}
+
+.price_list table tbody {
+  border: solid 1px #505050;
+  height: 5vh;
+}
+
+.price_list table tbody tr {
+  margin: 5%;
+}
+
+.price_list table tbody tr td {
+  border: solid 1px #505050;
+  width: 8%;
+  text-align: center;
+  height: 6vh;
+  height: 6vh;
+  padding: 2%;
+}
+
+.limit {
+  color: #BF92A8;
+  font-size: 30px;
+}
+
+.ca {
+  font-size: 20px;
 }
 
 button {

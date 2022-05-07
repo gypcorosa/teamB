@@ -683,7 +683,7 @@ a {
 .a_diagnosis {
     display: block;
     width: 90%;
-    height: 250vh;
+    height: 280vh;
     margin-left: 5%;
     
     &_title {
@@ -703,7 +703,7 @@ a {
         flex-direction: column;
         justify-content: space-between;
         margin-top: 5%;
-        height: 220vh;
+        height: 230vh;
     }
     &_contents {
         list-style:none;
@@ -761,8 +761,36 @@ a {
             height: 5vh;
             tr {
                 margin: 5%;
+                th {
+                    border: solid 1px #505050;
+                    width: 8%;
+                    text-align: center;
+                    padding: 1%;
+                }
+            }
+        }
+        tbody {
+            border: solid 1px #505050;
+            height: 5vh;
+            tr {
+                margin: 5%;
+            
+                td {
+                    border: solid 1px #505050;
+                    width: 8%;
+                    text-align: center;
+                    height: 6vh;
+                    height: 6vh;
+                    padding: 2%;
+                }
             }
         }
     }
-
+}
+.limit {
+    color: $main;
+    font-size: 30px;
+}
+.ca {
+    font-size: 20px;
 }
