@@ -1039,6 +1039,7 @@ li.header_contact a:hover {
 }
 
 #header > .container {
+  width: 100%;
   height: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1080,8 +1081,8 @@ li.header_contact a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-right: 3%;
   width: 100%;
+  text-align: center;
 }
 
 #g-nav ul a {
@@ -1113,7 +1114,6 @@ li.header_contact a:hover {
   background-color: #9E7E44;
   border-radius: 5px;
   padding: 0 48px;
-  position: relative;
 }
 
 .btn_contact a {
@@ -1144,7 +1144,7 @@ li.header_contact a:hover {
     z-index: 999;
   }
   /*ナビゲーションの縦スクロール*/
-  #g-nav.panelactive #g-nav-list {
+  #g-nav.panelactive {
     /*ナビの数が増えた場合縦スクロール*/
     position: fixed;
     z-index: 999;
@@ -1187,8 +1187,8 @@ li.header_contact a:hover {
     position: fixed;
     z-index: 9999;
     /*ボタンを最前面に*/
-    top: 10px;
-    right: 10px;
+    top: 2%;
+    right: 20%;
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -1253,17 +1253,12 @@ li.header_contact a:hover {
     background: #BF92A8;
     color: #fff;
     text-align: center;
-    padding: 20px;
   }
   section {
     padding: 100px 30px;
   }
   section:nth-child(2n) {
     background: #f3f3f3;
-  }
-  #footer {
-    background: #333;
-    padding: 20px;
   }
 }
 
@@ -1354,41 +1349,44 @@ li.header_contact a:hover {
   width: 300px;
 }
 
-.access_top_wrapper {
+.access_top {
   position: relative;
+  display: block;
   width: 100%;
   height: 40vh;
-  overflow: hidden;
-  background: url("../img/unsplash_csPvbh_E1uc.png") no-repeat center;
+}
+
+.access_top_img {
+  background: url(../img/unsplash_csPvbh_E1uc.png) no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 40vh;
 }
 
-.access_top_inner {
-  position: absolute;
+.access_top_txt {
+  display: inline-block;
+  width: 20%;
+  border-bottom: solid 2px #505050;
+  margin-left: 40%;
+  margin-top: 7%;
   text-align: center;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
-.access_top_title {
+.access_top_txt h1 {
   font-size: 50px;
-  color: #888;
+  color: #9E7E44;
 }
 
-.access_top_title::after {
-  content: '';
-  display: block;
-  width: 200px;
-  height: 1px;
-  background-color: #888;
+.access_top_sub {
+  display: inline-block;
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
 }
 
-.access_top_subtitle {
+.access_top_sub h2 {
   font-size: 40px;
-  color: #888;
+  color: #9E7E44;
 }
 
 .portation {
