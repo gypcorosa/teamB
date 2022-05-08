@@ -929,6 +929,12 @@ a {
   font-size: 20px;
 }
 
+#slider {
+  width: 100%;
+  height: 100vh;
+  /*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+}
+
 button {
   border: none;
   outline: none;
@@ -1067,94 +1073,108 @@ li.header_contact a:hover {
   color: #fff;
 }
 
-.header_inner {
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+#header {
+  color: #fff;
+  background-color: #BF92A8;
+}
+
+#header > .container {
   width: 100%;
   height: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #BF92A8;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.header_inner_title {
-  width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header_inner_title p {
-  color: #fff;
-  padding-left: 3%;
-}
-
-.header_logo img {
+.area_logo_header .logo {
   display: block;
+}
+
+.area_logo_header .logo img {
   height: 110px;
   width: 110px;
+  vertical-align: bottom;
 }
 
-.header_title {
+.header_title p {
+  display: block;
   width: 100%;
+  margin-left: 2%;
+}
+
+.header_tel {
+  display: block;
+  padding-left: 2%;
 }
 
 #g-nav {
-  width: 50%;
+  margin-left: auto;
 }
 
 #g-nav ul {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
   text-align: center;
 }
 
-#g-nav ul li {
-  display: inline-block;
-  padding: 2.5%;
-}
-
-#g-nav ul li a {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1.5rem;
+#g-nav ul a {
   color: #fff;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-#g-nav ul li a:hover {
-  color: #ddd;
-  border-bottom: solid 2px #ddd;
+#g-nav ul a:hover {
+  color: #888;
+}
+
+#g-nav ul a span {
+  font-size: 0.75rem;
+}
+
+#g-nav ul li {
+  list-style: none;
+}
+
+#g-nav ul > li + li {
+  margin-left: 40px;
 }
 
 #g-nav ul li a span {
   display: block;
-  margin-top: 5%;
-  font-size: 1rem;
-  color: #fff;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.time {
+.btn_contact {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 72px;
+  background-color: #9E7E44;
+  border-radius: 5px;
+  padding: 0 48px;
+  -webkit-box-shadow: 2px 2px 4px gray;
+          box-shadow: 2px 2px 4px gray;
+}
+
+.btn_contact a {
   font-size: 1.2rem;
-  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -1170,7 +1190,7 @@ li.header_contact a:hover {
     width: 100%;
     height: 100vh;
     /*ナビの高さ*/
-    background: #999;
+    background: #BF92A8;
     /*動き*/
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1181,7 +1201,7 @@ li.header_contact a:hover {
     z-index: 999;
   }
   /*ナビゲーションの縦スクロール*/
-  #g-nav.panelactive #g-nav-list {
+  #g-nav.panelactive {
     /*ナビの数が増えた場合縦スクロール*/
     position: fixed;
     z-index: 999;
@@ -1219,16 +1239,13 @@ li.header_contact a:hover {
     letter-spacing: 0.1em;
     font-weight: bold;
   }
-  li.time {
-    visibility: hidden;
-  }
   /*========= ボタンのためのCSS ===============*/
   .openbtn1 {
     position: fixed;
     z-index: 9999;
     /*ボタンを最前面に*/
-    top: 10px;
-    right: 10px;
+    top: 2%;
+    right: 20%;
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -1290,10 +1307,9 @@ li.header_contact a:hover {
   }
   #header {
     width: 100%;
-    background: #333;
+    background: #BF92A8;
     color: #fff;
     text-align: center;
-    padding: 20px;
   }
   section {
     padding: 100px 30px;
@@ -1301,9 +1317,13 @@ li.header_contact a:hover {
   section:nth-child(2n) {
     background: #f3f3f3;
   }
-  #footer {
-    background: #333;
-    padding: 20px;
+  li.btn_contact {
+    width: 20%;
+    height: 10%;
+    display: inline-block;
+  }
+  #g-nav ul > li + li {
+    margin-left: 0px;
   }
 }
 
@@ -1394,41 +1414,44 @@ li.header_contact a:hover {
   width: 300px;
 }
 
-.access_top_wrapper {
+.access_top {
   position: relative;
+  display: block;
   width: 100%;
   height: 40vh;
-  overflow: hidden;
-  background: url("../img/unsplash_csPvbh_E1uc.png") no-repeat center;
+}
+
+.access_top_img {
+  background: url(../img/unsplash_csPvbh_E1uc.png) no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 40vh;
 }
 
-.access_top_inner {
-  position: absolute;
+.access_top_txt {
+  display: inline-block;
+  width: 20%;
+  border-bottom: solid 2px #505050;
+  margin-left: 40%;
+  margin-top: 7%;
   text-align: center;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
 }
 
-.access_top_title {
+.access_top_txt h1 {
   font-size: 50px;
-  color: #888;
+  color: #9E7E44;
 }
 
-.access_top_title::after {
-  content: '';
-  display: block;
-  width: 200px;
-  height: 1px;
-  background-color: #888;
+.access_top_sub {
+  display: inline-block;
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
 }
 
-.access_top_subtitle {
+.access_top_sub h2 {
   font-size: 40px;
-  color: #888;
+  color: #9E7E44;
 }
 
 .portation {

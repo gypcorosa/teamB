@@ -5,47 +5,51 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JENDDOLL</title>
+
   <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="header">
-      <div class="header_inner">
-        <div class="header_inner_logo">
-          <a class="header_logo" href="index.html">
-            <img src="img/GENDDOLL.png" alt="ジェンドール">
-          </a>
-          <div class="header_title">
-            <p>美容皮膚科</p>
-            <p>JENDOLL-ジェンドール-(青山)</p>
-          </div>
-        </div>
-        <div class="header_site_menu">
-          <nav class="site_menu">
-            <ul>
-              <li><a href="html/about.html"><span>ABOUT</span>当院について</a></li>
-              <li><a href="html/menu.html"><span>MENU</span>診療メニュー</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header_site_contact">
-          <span>受付時間9:00～19:00</span>
-          <p>0120-00-0000</p>
-        </div>
-        <button name="header-button" type="button">
-          <a href="html/access.html">
-            メール相談<br>診療予約</button>
-        </a>
-      </div>
+<header id="header">
+  <div class="container">
+    <div class="area_logo_header">
+      <a class="logo" href="index.html">
+        <img src="img/GENDDOLL.png" alt="ジェンドール">
+      </a>
     </div>
-    <div class="drawer"></div>
-  </header>
-  <!-- ここまでヘッダー -->
+    <div class="header_title">
+      <p>美容皮膚科</p>
+      <p>JENDOLL-ジェンドール-(青山)</p>
+    </div>
+    <div class="header_tel">
+      <p>
+        受付時間9：00～21:00</p>
+      <p>
+        0120-00-0000
+      </p>
+    </div>
+
+    <div class="openbtn1"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+
+      <ul>
+        <li><a href="html/about.html"><span>ABOUT</span>当院について</a></li>
+        <li><a href="html/menu.html"><span>MENU</span>メニュー</a></li>
+        <li class="btn_contact"><a href="html/access.html">メール相談<br>診療予約</a></li>
+      </ul>
+
+    </nav>
+  </div>
+</header>
+<!-- ここまでヘッダー -->
 
   <main>
+  
     <section class="top">
-        <div class="top_img">
+        <!-- <div class="top_img"> -->
+          <div id="slider">
+            <!--/slider-->
           <div class="top_txt">
             <h1>自分を好きになるジェンドール</h1>
           </div>
@@ -236,7 +240,12 @@
         </div>
       </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+    
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
     <script type="text/javascript" src="js/main.js"></script>
     </body>
     </html>
