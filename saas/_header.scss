@@ -52,6 +52,16 @@ margin-left: 2%;
 #g-nav ul a {
   color: #fff;
   list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#g-nav ul a:hover {
+  color: $silver;
+}
+
+#g-nav ul a span {
+  font-size: 0.75rem;
 }
 
 #g-nav ul li {
@@ -70,10 +80,11 @@ margin-left: 2%;
   color: #000;
   display: flex;
   align-items: center;
-  height: 64px;
+  height: 72px;
   background-color: $gold;
   border-radius: 5px;
   padding: 0 48px;
+  box-shadow: 2px 2px 4px gray;
 }
 
 .btn_contact a {
@@ -95,7 +106,7 @@ margin-left: 2%;
   width: 100%;
   height: 100vh;
   /*ナビの高さ*/
-  background: #999;
+  background: $main;
   /*動き*/
   transition: all 0.3s;
 }
