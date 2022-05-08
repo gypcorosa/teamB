@@ -794,7 +794,7 @@ a {
 .a_diagnosis {
   display: block;
   width: 90%;
-  height: 280vh;
+  height: 290vh;
   margin-left: 5%;
 }
 
@@ -1330,7 +1330,6 @@ li.header_contact a:hover {
 .footer {
   width: 100%;
   background-color: #BF92A8;
-  margin-top: 100px;
 }
 
 .footer_inner {
