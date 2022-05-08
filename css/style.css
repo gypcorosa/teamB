@@ -1033,6 +1033,11 @@ li.header_contact a:hover {
   color: #fff;
 }
 
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 #header {
   color: #fff;
   background-color: #BF92A8;
@@ -1259,6 +1264,14 @@ li.header_contact a:hover {
   }
   section:nth-child(2n) {
     background: #f3f3f3;
+  }
+  li.btn_contact {
+    width: 20%;
+    height: 10%;
+    display: inline-block;
+  }
+  #g-nav ul > li + li {
+    margin-left: 0px;
   }
 }
 
