@@ -801,3 +801,42 @@ a {
     height: 100vh;
     /*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
 }
+
+
+////////// ///////////レスポンシブ/////////////////
+////////// ///////////TOPページ/////////////////
+
+@media screen and (max-width: 1024px) {
+.top_txt {
+        width: 70%;
+        margin-left: 17%;
+        margin-top: 38%;
+    }
+.top_ander .ander_sbtitle {
+        width: 56%;
+        left: 5%;
+        bottom: 62%;
+    }
+.top_ander .ander_img_txt {
+        width: 73%;
+        height: auto;
+        margin-top: 125%;
+        display: inline-block;
+        text-align: inherit; 
+    }
+.top_ander .ander_img {
+        height: 28vh;
+        bottom: 110%;
+    }
+.diagnosis_list {
+    margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
