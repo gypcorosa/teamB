@@ -2,7 +2,6 @@
 .footer {
   width: 100%;
   background-color: $main;
-  margin-top: 100px;
 
 
   &_inner {
@@ -49,7 +48,7 @@
 
       & a {
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 700;
         width: 200px;
         color: $white;
@@ -76,4 +75,14 @@
     width: 300px;
   }
 
-  
+    @media screen and (max-width: 1024px) {
+    }
+    
+
+    @media screen and (max-width: 768px) {
+
+    }
+
+
+    @media screen and (max-width: 480px) {
+    }
