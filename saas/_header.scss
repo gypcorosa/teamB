@@ -1,5 +1,5 @@
 .container {
-  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -63,7 +63,7 @@ margin-left: 1%;
 }
 
 #g-nav .gnavi li.current a,
-#g-nav .gnavi li a:hover {
+#g-nav .gnavi li a:hover  {
   color: #0481a2
 }
 
@@ -120,6 +120,21 @@ margin-left: 1%;
  font-size: 1.2rem; 
 }
 
+@media screen and (max-width: 1024px) {
+
+.header_title p {
+  font-size: 0.75rem;
+  padding-left: 0;
+}
+
+.header_tel {
+  font-size: 0.75rem;
+  padding-left: 2%;
+}
+
+}
+
+
 @media screen and (max-width: 768px) {
 
 /*========= ナビゲーションのためのCSS ===============*/
@@ -135,7 +150,7 @@ margin-left: 1%;
   width: 100%;
   height: 100vh;
   /*ナビの高さ*/
-  background: $main;
+  background: $silver;
   /*動き*/
   transition: all 0.3s;
 }
