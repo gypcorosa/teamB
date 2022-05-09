@@ -1119,6 +1119,7 @@ li.header_contact a:hover {
 #header {
   color: #fff;
   background-color: #BF92A8;
+  padding-right: 2%;
 }
 
 #header > .container {
@@ -1145,12 +1146,16 @@ li.header_contact a:hover {
 .header_title p {
   display: block;
   width: 100%;
-  margin-left: 2%;
+  margin-left: 1%;
+}
+
+.header_title {
+  padding-left: 2%;
 }
 
 .header_tel {
   display: block;
-  padding-left: 2%;
+  padding-left: 4%;
 }
 
 #g-nav {
@@ -1168,15 +1173,39 @@ li.header_contact a:hover {
   text-align: center;
 }
 
-#g-nav ul a {
+#g-nav .gnavi li a {
   color: #fff;
   list-style: none;
   font-size: 1.2rem;
   font-weight: bold;
+  position: relative;
 }
 
-#g-nav ul a:hover {
-  color: #888;
+#g-nav .gnavi li.current a,
+#g-nav .gnavi li a:hover {
+  color: #0481a2;
+}
+
+#g-nav .gnavi li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  background: #0481a2;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+}
+
+#g-nav .gnavi li.current a::after,
+#g-nav .gnavi li a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 
 #g-nav ul a span {
