@@ -1390,14 +1390,14 @@ li.header_contact a:hover {
 .site_menu_footer ul li {
   display: inline-block;
   text-align: center;
+  width: 200px;
   padding: 2.5%;
 }
 
 .site_menu_footer ul li a {
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  width: 200px;
   color: #fff;
 }
 
@@ -1417,6 +1417,23 @@ li.header_contact a:hover {
   margin-top: 20px;
   text-align: center;
   width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_inner {
+    display: block;
+    height: auto;
+  }
+  .footer_inner_logo,
+  .site_menu_footer ul {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .copyright {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 .access_top {
@@ -1617,5 +1634,12 @@ li.header_contact a:hover {
 @media screen and (max-width: 768px) {
   .contact_area {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portation_list {
+    display: block;
+    text-align: center;
   }
 }

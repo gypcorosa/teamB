@@ -2,6 +2,7 @@
 .footer {
   width: 100%;
   background-color: $main;
+  
 
 
   &_inner {
@@ -44,13 +45,14 @@
     & li {
       display: inline-block;
       text-align: center;
+      width: 200px;
       padding: 2.5%;
 
       & a {
         display: inline-block;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 700;
-        width: 200px;
+        // width: 200px;
         color: $white;
 
         &:hover {
@@ -77,12 +79,27 @@
 
     @media screen and (max-width: 1024px) {
     }
-    
-
     @media screen and (max-width: 768px) {
+      .footer_inner {
+        display: block;
+        height: auto;
+      }
 
+      .footer_inner_logo,
+      .site_menu_footer ul {
+        width: 70%;
+        margin: 0 auto;
+      }
+
+      .copyright {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+      }
     }
-
-
     @media screen and (max-width: 480px) {
+      
     }
+
+
+  
