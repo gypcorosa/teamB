@@ -1112,7 +1112,7 @@ li.header_contact a:hover {
 }
 
 .container {
-  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -1244,6 +1244,17 @@ li.header_contact a:hover {
   font-size: 1.2rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .header_title p {
+    font-size: 0.75rem;
+    padding-left: 0;
+  }
+  .header_tel {
+    font-size: 0.75rem;
+    padding-left: 2%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /*========= ナビゲーションのためのCSS ===============*/
   #g-nav {
@@ -1257,7 +1268,7 @@ li.header_contact a:hover {
     width: 100%;
     height: 100vh;
     /*ナビの高さ*/
-    background: #BF92A8;
+    background: #888;
     /*動き*/
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1451,6 +1462,7 @@ li.header_contact a:hover {
 .site_menu_footer ul li {
   display: inline-block;
   text-align: center;
+  width: 200px;
   padding: 2.5%;
 }
 
@@ -1458,7 +1470,6 @@ li.header_contact a:hover {
   display: inline-block;
   font-size: 1.5rem;
   font-weight: 700;
-  width: 200px;
   color: #fff;
 }
 
@@ -1478,6 +1489,23 @@ li.header_contact a:hover {
   margin-top: 20px;
   text-align: center;
   width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_inner {
+    display: block;
+    height: auto;
+  }
+  .footer_inner_logo,
+  .site_menu_footer ul {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .copyright {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 .access_top {
@@ -1592,7 +1620,7 @@ li.header_contact a:hover {
 
 .contact_txt_1 {
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-top: 5%;
   line-height: 1.5;
 }
@@ -1613,7 +1641,7 @@ li.header_contact a:hover {
 .form_area dt {
   width: 200px;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   line-height: 24px;
 }
@@ -1624,7 +1652,7 @@ li.header_contact a:hover {
   height: 20px;
   background-color: #BF92A8;
   content: '必須';
-  font-size: 11px;
+  font-size: 0.75rem;
   color: #fff;
   margin-left: 10px;
   text-align: center;
@@ -1673,4 +1701,17 @@ li.header_contact a:hover {
 
 .breadcrumb_item:last-child::after {
   content: "";
+}
+
+@media screen and (max-width: 768px) {
+  .contact_area {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portation_list {
+    display: block;
+    text-align: center;
+  }
 }
