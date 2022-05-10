@@ -828,8 +828,56 @@ a {
         height: 28vh;
         bottom: 110%;
     }
+    .feature_item {
+        height: 55vh;
+    }
 .diagnosis_list {
     margin-top: 8%;
+    }
+    .diagnosis_menu5 {
+        background-position: right;
+    }
+    .diagnosis_menu6 {
+        background-position: right;
+    }
+    .problem_img1 .img1 {
+        width: 80%;
+        height: 30vh;
+        margin-left: 8%;
+    }
+    .problem_img2 .img2 {
+        width: 80%;
+        height: 30vh;
+        margin-left: 8%;
+    }
+    .problem_img3 .img3 {
+        width: 95%;
+        height: 30vh;
+        margin-left: 3%;
+    }
+    .problem_txt_list3 {
+        width: 68%;
+        margin-top: 216%;
+        margin-left: 17%;
+    }
+    .problem_txt_list {
+        margin-top: 257%;
+        margin-left: 17%;
+    }
+    .contact_img {
+        height: 50vh;
+    }
+    .contact_txt {
+        margin-left: 10%;
+    }
+    .contact_nbu_sbu {
+        margin-left: 40%;
+    }
+    .contact_nbu {
+        margin-left: 35%;
+    }
+    .contact_sbu {
+        margin-left: 48%;
     }
 }
 
