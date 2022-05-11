@@ -828,8 +828,56 @@ a {
         height: 28vh;
         bottom: 110%;
     }
+    .feature_item {
+        height: 55vh;
+    }
 .diagnosis_list {
     margin-top: 8%;
+    }
+    .diagnosis_menu5 {
+        background-position: right;
+    }
+    .diagnosis_menu6 {
+        background-position: right;
+    }
+    .problem_img1 .img1 {
+        width: 80%;
+        height: 30vh;
+        margin-left: 8%;
+    }
+    .problem_img2 .img2 {
+        width: 80%;
+        height: 30vh;
+        margin-left: 8%;
+    }
+    .problem_img3 .img3 {
+        width: 95%;
+        height: 30vh;
+        margin-left: 3%;
+    }
+    .problem_txt_list3 {
+        width: 68%;
+        margin-top: 216%;
+        margin-left: 17%;
+    }
+    .problem_txt_list {
+        margin-top: 257%;
+        margin-left: 17%;
+    }
+    .contact_img {
+        height: 50vh;
+    }
+    .contact_txt {
+        margin-left: 10%;
+    }
+    .contact_nbu_sbu {
+        margin-left: 40%;
+    }
+    .contact_nbu {
+        margin-left: 35%;
+    }
+    .contact_sbu {
+        margin-left: 48%;
     }
 }
 
@@ -856,3 +904,49 @@ a {
 @media screen and (max-width: 480px) {
 
 }
+
+////////// ///////////ABOUTページ/////////////////
+
+@media screen and (max-width: 1024px) {
+    .a_top_txt {
+            width: 35%;
+            margin-left: 35%;
+            margin-top: 20%;
+        }
+        .a_adr {
+            height: 90vh;
+        }
+        .a_adr_title {
+            width: 54%;
+            top: 5%;
+        }
+        .a_adr_title p {
+            font-size: 35px;
+        }
+        .a_adr_title_txt {
+            top: 20%;
+        }
+        .a_adr_title_txt p {
+            font-size: 25px;
+        }
+        .a_adr_img {
+            height: 20vh;
+            background: url(../img/unsplash_e3OUQGT9bWU.png) no-repeat;
+            margin-top: 20%;
+            background-size: cover;
+        }
+        .a_adr_adr_title {
+            width: 50%;
+            margin-top: 25%;
+        }
+        .a_adr_adr_title p {
+            font-size: 35px;
+        }
+        .a_adr_adr_txt p {
+            font-size: 25px;
+        }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}
