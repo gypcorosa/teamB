@@ -1010,6 +1010,10 @@ a {
   }
 }
 
+.a_purpose_list_txt p {
+  font-size: 1.5rem;
+}
+
 button {
   border: none;
   outline: none;
@@ -1230,7 +1234,7 @@ li.header_contact a:hover {
 #g-nav .gnavi li a {
   color: #fff;
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   position: relative;
 }
@@ -1286,12 +1290,13 @@ li.header_contact a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 72px;
+  height: 88px;
   background-color: #9E7E44;
   border-radius: 5px;
   padding: 0 48px;
   -webkit-box-shadow: 2px 2px 4px gray;
           box-shadow: 2px 2px 4px gray;
+  line-height: 2rem;
 }
 
 .btn_contact a {
