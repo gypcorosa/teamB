@@ -833,12 +833,22 @@ a {
     }
 }
 
-// 船橋追記
+@media screen and (max-width: 768px) {
 
-.a_purpose_list_txt p {
-    font-size: 1.5rem;
 }
 
+@media screen and (max-width: 480px) {
+
+}
+
+////////// ///////////レスポンシブ/////////////////
+////////// ///////////MENUページ/////////////////
+
+@media screen and (max-width: 1024px) {
+    .a_purpose_list_txt p {
+            font-size: 1.5rem;
+        }
+    }
 @media screen and (max-width: 768px) {
 
 }
