@@ -899,10 +899,25 @@ a {
         }
     }
 @media screen and (max-width: 768px) {
+.a_diagnosis_sub {
+    top: 3%;
+}
+.a_diagnosis_txt{
+    top: 18%;
+}
 
 }
 
 @media screen and (max-width: 480px) {
+
+.a_menu_txt h1 {
+    font-size: 24px;
+    width: 200px;
+}
+
+.a_menu_sub h2 {
+    font-size: 20px;
+}
 
 }
 
