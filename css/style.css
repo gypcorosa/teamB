@@ -1014,6 +1014,46 @@ a {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .a_top_txt {
+    width: 35%;
+    margin-left: 35%;
+    margin-top: 20%;
+  }
+  .a_adr {
+    height: 90vh;
+  }
+  .a_adr_title {
+    width: 54%;
+    top: 5%;
+  }
+  .a_adr_title p {
+    font-size: 35px;
+  }
+  .a_adr_title_txt {
+    top: 20%;
+  }
+  .a_adr_title_txt p {
+    font-size: 25px;
+  }
+  .a_adr_img {
+    height: 20vh;
+    background: url(../img/unsplash_e3OUQGT9bWU.png) no-repeat;
+    margin-top: 20%;
+    background-size: cover;
+  }
+  .a_adr_adr_title {
+    width: 50%;
+    margin-top: 25%;
+  }
+  .a_adr_adr_title p {
+    font-size: 35px;
+  }
+  .a_adr_adr_txt p {
+    font-size: 25px;
+  }
+}
+
 button {
   border: none;
   outline: none;
