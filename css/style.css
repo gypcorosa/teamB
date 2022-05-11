@@ -835,7 +835,7 @@ a {
 }
 
 .a_diagnosis_img {
-  background: url(../img/unsplash_e3OUQGT9bWU.png) no-repeat;
+  background: url(../img/Rectangle39.png) no-repeat;
   background-size: cover;
   background-position: center;
   width: 40%;
@@ -1177,7 +1177,7 @@ p.header_name {
 
 p.header_telnumber {
   color: #505050;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -1199,7 +1199,7 @@ p.header_telnumber {
 #g-nav .gnavi li a {
   color: #fff;
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 30px;
   font-weight: bold;
   position: relative;
 }
@@ -1269,6 +1269,9 @@ p.header_telnumber {
 }
 
 @media screen and (max-width: 1024px) {
+  #g-nav .gnavi li a {
+    font-size: 1.2rem;
+  }
   .header_title p {
     font-size: 0.75rem;
     padding-left: 0;
