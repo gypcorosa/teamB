@@ -914,17 +914,19 @@ a {
             margin-top: 20%;
         }
         .a_adr {
-            height: 90vh;
+            height: 80vh;
         }
         .a_adr_title {
-            width: 54%;
+            width: 73%;
             top: 5%;
+            left: 15%;
         }
         .a_adr_title p {
             font-size: 35px;
         }
         .a_adr_title_txt {
-            top: 20%;
+            top: 15%;
+            text-align: inherit;
         }
         .a_adr_title_txt p {
             font-size: 25px;
@@ -937,13 +939,25 @@ a {
         }
         .a_adr_adr_title {
             width: 50%;
-            margin-top: 25%;
+            margin-top: 15%;
         }
         .a_adr_adr_title p {
             font-size: 35px;
         }
         .a_adr_adr_txt p {
             font-size: 25px;
+        }
+        .a_flow_box_nbr p {
+            font-size: 45px;
+        }
+        .a_flow_box_title {
+            width: 50%;
+        }
+        .a_flow_box_title p {
+            font-size: 30px;
+        }
+        .a_flow_box_txt {
+            top: 30%;
         }
 }
 
