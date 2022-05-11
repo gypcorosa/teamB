@@ -1016,6 +1016,25 @@ a {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .a_diagnosis_sub {
+    top: 3%;
+  }
+  .a_diagnosis_txt {
+    top: 18%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .a_menu_txt h1 {
+    font-size: 24px;
+    width: 200px;
+  }
+  .a_menu_sub h2 {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .a_top_txt {
     width: 35%;
@@ -1510,12 +1529,6 @@ p.header_telnumber {
     color: #fff;
     text-align: center;
   }
-  section {
-    padding: 100px 30px;
-  }
-  section:nth-child(2n) {
-    background: #f3f3f3;
-  }
   li.btn_contact {
     width: 20%;
     height: 10%;
@@ -1523,6 +1536,12 @@ p.header_telnumber {
   }
   #g-nav ul > li + li {
     margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  p.header_telnumber {
+    font-size: 1rem;
   }
 }
 
