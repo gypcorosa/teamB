@@ -909,17 +909,19 @@ a {
 }
 
 @media screen and (max-width: 480px) {
-
-.a_menu_txt h1 {
-    font-size: 24px;
-    width: 200px;
+.a_diagnosis_img {
+    display: block;
+    width: 100%;
+    position: relative;
 }
 
-.a_menu_sub h2 {
-    font-size: 20px;
+
+    
 }
 
-}
+
+
+
 
 ////////// ///////////ABOUTページ/////////////////
 
