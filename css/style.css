@@ -1026,12 +1026,10 @@ a {
 }
 
 @media screen and (max-width: 480px) {
-  .a_menu_txt h1 {
-    font-size: 24px;
-    width: 200px;
-  }
-  .a_menu_sub h2 {
-    font-size: 20px;
+  .a_diagnosis_img {
+    display: block;
+    width: 100%;
+    position: relative;
   }
 }
 
@@ -1556,6 +1554,12 @@ p.header_telnumber {
 @media screen and (max-width: 480px) {
   p.header_telnumber {
     font-size: 1rem;
+  }
+  li.btn_contact {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding: 0 10px;
   }
 }
 
