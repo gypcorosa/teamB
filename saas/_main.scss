@@ -713,7 +713,7 @@ a {
         position: relative;
     }
     &_img {
-        background: url(../img/unsplash_e3OUQGT9bWU.png) no-repeat;
+        background: url(../img/Rectangle39.png) no-repeat;
         background-size: cover;
         background-position: center;
         width: 40%;
@@ -893,15 +893,31 @@ a {
 ////////// ///////////MENUページ/////////////////
 
 @media screen and (max-width: 1024px) {
+
     .a_purpose_list_txt p {
             font-size: 1.5rem;
         }
     }
 @media screen and (max-width: 768px) {
+.a_diagnosis_sub {
+    top: 3%;
+}
+.a_diagnosis_txt{
+    top: 18%;
+}
 
 }
 
 @media screen and (max-width: 480px) {
+
+.a_menu_txt h1 {
+    font-size: 24px;
+    width: 200px;
+}
+
+.a_menu_sub h2 {
+    font-size: 20px;
+}
 
 }
 

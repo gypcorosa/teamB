@@ -55,7 +55,7 @@ p.header_name {
 
 p.header_telnumber {
   color: $body;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ p.header_telnumber {
 #g-nav .gnavi li a {
   color: #fff;
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 30px;
   font-weight: bold;
   position: relative;
 }
@@ -139,6 +139,11 @@ p.header_telnumber {
 }
 
 @media screen and (max-width: 1024px) {
+
+
+  #g-nav .gnavi li a {
+      font-size: 1.2rem;
+    }
 
 .header_title p {
   font-size: 0.75rem;
@@ -308,17 +313,7 @@ small {
   background: $main;
   color: #fff;
   text-align: center;
-  // padding: 20px;
 }
-
-section {
-  padding: 100px 30px;
-}
-
-section:nth-child(2n) {
-  background: #f3f3f3;
-}
-
 
 li.btn_contact {
   width: 20%;
@@ -328,6 +323,15 @@ li.btn_contact {
 
 #g-nav ul>li+li {
   margin-left: 0px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+p.header_telnumber {
+  font-size: 1rem;
+
 }
 
 }
