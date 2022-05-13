@@ -234,6 +234,10 @@ a {
           box-shadow: 5px 10px 10px #505050;
 }
 
+.diagnosis_menu1 p {
+  font-size: 40px;
+}
+
 .diagnosis_menu2 {
   background: url(../img/unsplash_ILip77SbmOE.png) no-repeat;
   background-size: cover;
@@ -243,6 +247,10 @@ a {
   height: 25vh;
   -webkit-box-shadow: 5px 10px 10px #505050;
           box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_menu2 p {
+  font-size: 40px;
 }
 
 .diagnosis_menu3 {
@@ -256,6 +264,10 @@ a {
           box-shadow: 5px 10px 10px #505050;
 }
 
+.diagnosis_menu3 p {
+  font-size: 40px;
+}
+
 .diagnosis_menu4 {
   background: url(../img/23651448.png) no-repeat;
   background-size: cover;
@@ -265,6 +277,10 @@ a {
   height: 25vh;
   -webkit-box-shadow: 5px 10px 10px #505050;
           box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_menu4 p {
+  font-size: 40px;
 }
 
 .diagnosis_menu5 {
@@ -278,6 +294,10 @@ a {
           box-shadow: 5px 10px 10px #505050;
 }
 
+.diagnosis_menu5 p {
+  font-size: 40px;
+}
+
 .diagnosis_menu6 {
   background: url(../img/4.png) no-repeat;
   background-size: cover;
@@ -287,6 +307,10 @@ a {
   height: 25vh;
   -webkit-box-shadow: 5px 10px 10px #505050;
           box-shadow: 5px 10px 10px #505050;
+}
+
+.diagnosis_menu6 p {
+  font-size: 40px;
 }
 
 .diagnosis_arr {
@@ -935,6 +959,9 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
+  .top_ander {
+    height: auto;
+  }
   .top_txt {
     width: 70%;
     margin-left: 17%;
@@ -1044,6 +1071,161 @@ a {
   }
   .top_ander .ander_img_txt p {
     font-size: 15px;
+  }
+  .feature_nbr {
+    font-size: 30px;
+  }
+  .feature_sbutitle {
+    font-size: 20px;
+  }
+  .feature_txt {
+    font-size: 14px;
+  }
+  .diagnosis_menu1 p {
+    font-size: 30px;
+  }
+  .diagnosis_menu2 p {
+    font-size: 30px;
+  }
+  .diagnosis_menu3 p {
+    font-size: 30px;
+  }
+  .diagnosis_menu4 p {
+    font-size: 30px;
+  }
+  .diagnosis_menu5 p {
+    font-size: 30px;
+  }
+  .diagnosis_menu6 p {
+    font-size: 30px;
+  }
+  .problem_txt_list li {
+    font-size: 15px;
+  }
+  .problem_txt_list3 li {
+    font-size: 15px;
+  }
+  .contact_txt {
+    margin-left: 13%;
+  }
+  .contact_txt p {
+    font-size: 20px;
+  }
+  .contact_nbu p {
+    font-size: 35px;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top_txt {
+    height: 6vh;
+  }
+  .top_txt h1 {
+    font-size: 25px;
+  }
+  .top_txt {
+    margin-top: 70%;
+  }
+  .top_ander .ander_title p {
+    font-size: 20px;
+  }
+  .top_ander .ander_sbtitle p {
+    font-size: 20px;
+  }
+  .top_ander .ander_txt p {
+    font-size: 12px;
+  }
+  .top_ander .ander_img_txt p {
+    font-size: 10px;
+  }
+  .top_ander .ander_img_txt {
+    margin-top: 160%;
+  }
+  .feature_nbr {
+    font-size: 20px;
+  }
+  .feature_sbutitle {
+    font-size: 15px;
+  }
+  .feature_txt {
+    font-size: 10px;
+  }
+  .diagnosis_title p {
+    font-size: 25px;
+    padding-top: 5%;
+  }
+  .diagnosis_menu1 p {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+  .diagnosis_menu2 p {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+  .diagnosis_menu3 p {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+  .diagnosis_menu4 p {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+  .diagnosis_menu5 p {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+  .diagnosis_menu6 p {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+  .problem {
+    height: 80vh;
+  }
+  .problem_title p {
+    font-size: 25px;
+  }
+  .problem_img1 .img1 {
+    height: 20vh;
+  }
+  .problem_img2 .img2 {
+    height: 20vh;
+  }
+  .problem_img3 .img3 {
+    height: 20vh;
+  }
+  .problem_txt_list li {
+    font-size: 10px;
+  }
+  .problem_txt_list3 li {
+    font-size: 10px;
+  }
+  .problem_img1 {
+    height: 55vh;
+  }
+  .problem_img2 {
+    height: 55vh;
+  }
+  .problem_img3 {
+    height: 55vh;
+  }
+  .contact_txt {
+    margin-left: 10%;
+  }
+  .contact_txt p {
+    font-size: 14px;
+  }
+  .contact_nbu_sbu p {
+    font-size: 15px;
+  }
+  .contact_nbu {
+    margin-left: 25%;
+  }
+  .contact_nbu p {
+    font-size: 30px;
+  }
+  .contact_sbu p {
+    font-size: 20px;
   }
 }
 
@@ -1167,6 +1349,79 @@ a {
   }
   .a_flow_box_txt {
     top: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .a_top_txt h1 {
+    font-size: 40px;
+  }
+  .a_top_sub h2 {
+    font-size: 30px;
+  }
+  .a_adr_title p {
+    font-size: 25px;
+  }
+  .a_adr_title_txt p {
+    font-size: 20px;
+  }
+  .a_adr_adr_title p {
+    font-size: 25px;
+  }
+  .a_adr_adr_txt p {
+    font-size: 20px;
+  }
+  .a_flow_box_nbr p {
+    font-size: 30px;
+  }
+  .a_flow_box_title p {
+    font-size: 20px;
+  }
+  .a_flow_box_txt p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .a_top_txt h1 {
+    font-size: 25px;
+  }
+  .a_top_sub h2 {
+    font-size: 20px;
+  }
+  .a_top_txt {
+    margin-top: 30%;
+  }
+  .a_adr {
+    height: 60vh;
+  }
+  .a_adr_title {
+    top: 2%;
+  }
+  .a_adr_title p {
+    font-size: 15px;
+  }
+  .a_adr_title_txt p {
+    font-size: 10px;
+  }
+  .a_adr_adr_title p {
+    font-size: 15px;
+  }
+  .a_adr_adr_txt p {
+    font-size: 10px;
+  }
+  .a_flow_title p {
+    font-size: 25px;
+    padding-top: 5%;
+  }
+  .a_flow_box_nbr p {
+    font-size: 20px;
+  }
+  .a_flow_box_title p {
+    font-size: 10px;
+  }
+  .a_flow_box_txt p {
+    font-size: 10px;
   }
 }
 
@@ -1298,6 +1553,33 @@ button:hover {
     width: 50%;
     margin-top: 8%;
     margin-left: 28%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_btn a {
+    font-size: 35px;
+  }
+  .contact_btn {
+    height: 100px;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .feature_btn {
+    width: 30%;
+    left: 35%;
+  }
+  .diagnosis_btn {
+    width: 30%;
+    left: 35%;
+  }
+  .contact_btn {
+    height: 70px;
+  }
+  .contact_btn a {
+    font-size: 25px;
   }
 }
 

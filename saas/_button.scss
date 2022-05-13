@@ -123,6 +123,30 @@ button {
     }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .contact_btn a {
+      font-size: 35px;
+    }
+  .contact_btn {
+    height: 100px;
+    margin-top: 2%;
+  }
+}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+  .feature_btn {
+      width: 30%;
+      left: 35%;
+    }
+    .diagnosis_btn {
+      width: 30%;
+      left: 35%;
+    }
+    .contact_btn {
+      height: 70px;
+    }
+
+    .contact_btn a {
+      font-size: 25px;
+    }
+}
