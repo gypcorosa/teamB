@@ -617,7 +617,7 @@ a {
         background: url(../img/unsplash_B_sK_xgzwVA.png) no-repeat;
         background-size: cover;
         background-position: center;
-        margin-top: 5%;
+        // margin-top: 5%;
     }
     &_txt {
         display: inline-block;
@@ -943,17 +943,43 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+.a_diagnosis_img {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.a_menu_txt {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: none;
+    
+}
 
 .a_menu_txt h1 {
-    font-size: 24px;
-    width: 200px;
+    font-size: 36px;
+    position: absolute;
+    height: 60px;
+    top: 200px;
+    left: 28%;
+    border-bottom: solid 2px #505050;
 }
 
 .a_menu_sub h2 {
-    font-size: 20px;
+    font-size: 24px;
+    position: absolute;
+    height: 100px;
+    top: 300px;
+}
+
+.a_menu {
+    height: 55vh;
 }
 
 }
+
+
 
 ////////// ///////////ABOUTページ/////////////////
 
