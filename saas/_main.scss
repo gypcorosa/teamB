@@ -820,6 +820,7 @@ a {
 }
 
 
+
 ////////// ///////////レスポンシブ/////////////////
 ////////// ///////////TOPページ/////////////////
 
@@ -1149,9 +1150,47 @@ a {
     height: 55vh;
 }
 
+.a_diagnosis_sub {
+    top: 85%;
+    left: auto;
+    right: auto;
+}
+.a_diagnosis_txt {
+    display: block;
+    top: 100%;
+    left: auto;
+    right: auto;
+}
+.a_diagnosis_list {
+    height: 275vh;
 }
 
+.price_list {
+    margin-top: 100%;
+}
 
+.price_list table thead tr {
+font-size: 16px;
+}
+.price_list table thead th {
+font-size: 16px;
+}
+
+// .contact_img {
+//     margin-top: 70vh;
+//     height: 250%;
+// }
+
+// .contact_btn {
+//     width: 100%;
+//     font-size: 24px;
+//     margin: 0 auto;
+// }
+
+// .contact_btn a {
+//     font-size: 36px;
+// }
+}
 
 ////////// ///////////ABOUTページ/////////////////
 

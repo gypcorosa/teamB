@@ -1273,6 +1273,29 @@ a {
   .a_menu {
     height: 55vh;
   }
+  .a_diagnosis_sub {
+    top: 85%;
+    left: auto;
+    right: auto;
+  }
+  .a_diagnosis_txt {
+    display: block;
+    top: 100%;
+    left: auto;
+    right: auto;
+  }
+  .a_diagnosis_list {
+    height: 275vh;
+  }
+  .price_list {
+    margin-top: 100%;
+  }
+  .price_list table thead tr {
+    font-size: 16px;
+  }
+  .price_list table thead th {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1496,6 +1519,34 @@ button:hover {
 }
 
 .contact_btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-box-shadow: 5px 10px 10px #505050;
+          box-shadow: 5px 10px 10px #505050;
+  opacity: 0.8;
+}
+
+.contact_btn_m {
+  bottom: 34%;
+  display: inline-block;
+  width: 30%;
+  height: 145px;
+  background-color: #9E7E44;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 3%;
+  margin-left: 40%;
+  padding-top: 3%;
+}
+
+.contact_btn_m a {
+  font-size: 45px;
+  color: aliceblue;
+}
+
+.contact_btn_m:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: all 0.3s ease-in-out 0s;
