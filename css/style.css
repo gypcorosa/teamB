@@ -1651,7 +1651,7 @@ p.header_telnumber {
   margin-left: auto;
 }
 
-#g-nav ul {
+#g-nav .gnavi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1667,7 +1667,7 @@ p.header_telnumber {
 #g-nav .gnavi .nav a {
   color: #fff;
   list-style: none;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
   position: relative;
 }
@@ -1714,7 +1714,6 @@ p.header_telnumber {
 }
 
 .btn_contact {
-  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1730,19 +1729,19 @@ p.header_telnumber {
   line-height: 2rem;
 }
 
+.btn_contact:hover {
+  background-color: #b39768;
+}
+
 .btn_contact a {
   font-size: 1.3rem;
   font-weight: bold;
   color: #fff;
 }
 
-.btn_contact a:hover {
-  color: #888;
-}
-
 @media screen and (max-width: 1024px) {
   #g-nav .gnavi li a {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .header_title p {
     font-size: 0.75rem;
@@ -1767,7 +1766,7 @@ p.header_telnumber {
     width: 100%;
     height: 100vh;
     /*ナビの高さ*/
-    background: #888;
+    background: #BF92A8;
     /*動き*/
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1954,46 +1953,12 @@ p.header_telnumber {
   color: #505050;
 }
 
-.site_menu_footer ul {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-}
-
-.site_menu_footer ul li {
-  display: inline-block;
-  text-align: center;
-  width: 200px;
-  padding: 2.5%;
-}
-
-.site_menu_footer ul li a {
-  display: inline-block;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #fff;
-}
-
-.site_menu_footer ul li a:hover {
-  color: #888;
-  border-bottom: solid 2px #ddd;
-}
-
-.site_menu_footer ul li a span {
-  display: block;
-  margin-top: 5%;
-  font-size: 0.75rem;
-}
-
 .copyright {
   display: inline-block;
   margin-top: 20px;
   text-align: center;
   width: 300px;
+  font-size: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -2034,32 +1999,6 @@ p.header_telnumber {
   background-size: cover;
   background-position: center;
   height: 40vh;
-}
-
-.access_top_txt {
-  display: inline-block;
-  width: 20%;
-  border-bottom: solid 2px #505050;
-  margin-left: 40%;
-  margin-top: 7%;
-  text-align: center;
-}
-
-.access_top_txt h1 {
-  font-size: 50px;
-  color: #9E7E44;
-}
-
-.access_top_sub {
-  display: inline-block;
-  width: 20%;
-  margin-left: 40%;
-  text-align: center;
-}
-
-.access_top_sub h2 {
-  font-size: 40px;
-  color: #9E7E44;
 }
 
 .portation {
@@ -2240,26 +2179,6 @@ p.header_telnumber {
   }
   .contact_area {
     padding: 5% 0;
-  }
-  .access_top_txt {
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    border-bottom: none;
-  }
-  .access_top_txt h1 {
-    font-size: 36px;
-    position: absolute;
-    height: 60px;
-    top: 100px;
-    left: 35%;
-    border-bottom: solid 2px #505050;
-  }
-  .access_top_sub h2 {
-    font-size: 24px;
-    position: absolute;
-    height: 60px;
-    top: 180px;
   }
   .feature_title p {
     font-size: 24px;
