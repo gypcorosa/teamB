@@ -1307,6 +1307,9 @@ a {
   .price_list td.ca {
     font-size: 1rem;
   }
+  .a_diagnosis {
+    height: 365vh;
+  }
 }
 
 @media screen and (max-width: 1024px) {
