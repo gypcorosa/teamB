@@ -64,35 +64,36 @@ p.header_telnumber {
   margin-left: auto;
 }
 
-#g-nav ul {
+#g-nav .gnavi {
   display: flex;
   align-items: center;
   width: 100%;
   text-align: center;
+  flex-wrap: wrap;
 }
 
-#g-nav .gnavi li a {
+#g-nav .gnavi .nav a {
   color: #fff;
   list-style: none;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
   position: relative;
+  
 }
 
-#g-nav .gnavi li.current a,
-#g-nav .gnavi li a:hover  {
-  color: #0481a2
+#g-nav .gnavi .nav a:hover  {
+  color: $silver
 }
 
-#g-nav .gnavi li a::after {
+#g-nav .gnavi .nav a::after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 10%;
+  left: -40%;
   // 線の形状
   width: 80%;
   height: 2px;
-  background: #0481a2;
+  background: $silver;
   // アニメーションの指定
   transition: all .3s;
   transform: scale(0,1);
@@ -101,9 +102,8 @@ p.header_telnumber {
 }
 
 // 現在地とhoverの設定
-#g-nav .gnavi li.current a::after,
-#g-nav .gnavi li a:hover::after {
-  transform: scale(1,1);
+#g-nav .gnavi .nav a:hover::after {
+  transform: scale(2,1);
 }
 
 #g-nav ul a span {
@@ -123,7 +123,6 @@ p.header_telnumber {
 }
 
 .btn_contact {
-  color: #000;
   display: flex;
   align-items: center;
   height: 88px;
@@ -131,18 +130,25 @@ p.header_telnumber {
   border-radius: 5px;
   padding: 0 48px;
   box-shadow: 2px 2px 4px gray;
-  line-height: 2rem
+  line-height: 2rem;
+
+  &:hover {
+      background-color: $brightgold;
+    }
 }
 
 .btn_contact a {
- font-size: 1.2rem; 
+ font-size: 1.3rem; 
+ font-weight: bold;
+ color: $white;
+
 }
 
 @media screen and (max-width: 1024px) {
 
 
   #g-nav .gnavi li a {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
 .header_title p {
@@ -173,7 +179,7 @@ p.header_telnumber {
   width: 100%;
   height: 100vh;
   /*ナビの高さ*/
-  background: $silver;
+  background: $main;
   /*動き*/
   transition: all 0.3s;
 }

@@ -770,7 +770,7 @@ a {
 .a_purpose {
   display: block;
   width: 90%;
-  height: 30vh;
+  height: 15vh;
   margin-left: 5%;
 }
 
@@ -817,7 +817,7 @@ a {
 .a_diagnosis {
   display: block;
   width: 90%;
-  height: 290vh;
+  height: 340vh;
   margin-left: 5%;
 }
 
@@ -1242,6 +1242,10 @@ a {
   .a_diagnosis_txt {
     top: 18%;
   }
+  .a_purpose_list_txt p {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1285,7 +1289,7 @@ a {
     right: auto;
   }
   .a_diagnosis_list {
-    height: 275vh;
+    height: 290vh;
   }
   .price_list {
     margin-top: 100%;
@@ -1295,6 +1299,13 @@ a {
   }
   .price_list table thead th {
     font-size: 16px;
+  }
+  .a_purpose_list_txt p {
+    font-size: 0.75rem;
+    margin-top: 0;
+  }
+  .price_list td.ca {
+    font-size: 1rem;
   }
 }
 
@@ -1539,30 +1550,6 @@ button:hover {
   margin: 0 auto;
 }
 
-li.header_contact {
-  width: 18%;
-  line-height: 1.5;
-}
-
-li.header_contact a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  font-size: 1.5rem;
-  -webkit-box-shadow: 2px 2px 4px #888;
-          box-shadow: 2px 2px 4px #888;
-  background-color: #9E7E44;
-  border-radius: 5px;
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
-}
-
-li.header_contact a:hover {
-  background-color: #b39768;
-  color: #fff;
-}
-
 @media screen and (max-width: 1024px) {
   .feature_btn {
     width: 20%;
@@ -1675,7 +1662,7 @@ p.header_telnumber {
   margin-left: auto;
 }
 
-#g-nav ul {
+#g-nav .gnavi {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1684,29 +1671,30 @@ p.header_telnumber {
           align-items: center;
   width: 100%;
   text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-#g-nav .gnavi li a {
+#g-nav .gnavi .nav a {
   color: #fff;
   list-style: none;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
   position: relative;
 }
 
-#g-nav .gnavi li.current a,
-#g-nav .gnavi li a:hover {
-  color: #0481a2;
+#g-nav .gnavi .nav a:hover {
+  color: #888;
 }
 
-#g-nav .gnavi li a::after {
+#g-nav .gnavi .nav a::after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 10%;
+  left: -40%;
   width: 80%;
   height: 2px;
-  background: #0481a2;
+  background: #888;
   -webkit-transition: all .3s;
   transition: all .3s;
   -webkit-transform: scale(0, 1);
@@ -1715,10 +1703,9 @@ p.header_telnumber {
           transform-origin: center top;
 }
 
-#g-nav .gnavi li.current a::after,
-#g-nav .gnavi li a:hover::after {
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
+#g-nav .gnavi .nav a:hover::after {
+  -webkit-transform: scale(2, 1);
+          transform: scale(2, 1);
 }
 
 #g-nav ul a span {
@@ -1738,7 +1725,6 @@ p.header_telnumber {
 }
 
 .btn_contact {
-  color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1754,13 +1740,19 @@ p.header_telnumber {
   line-height: 2rem;
 }
 
+.btn_contact:hover {
+  background-color: #b39768;
+}
+
 .btn_contact a {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
 }
 
 @media screen and (max-width: 1024px) {
   #g-nav .gnavi li a {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .header_title p {
     font-size: 0.75rem;
@@ -1785,7 +1777,7 @@ p.header_telnumber {
     width: 100%;
     height: 100vh;
     /*ナビの高さ*/
-    background: #888;
+    background: #BF92A8;
     /*動き*/
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1972,46 +1964,12 @@ p.header_telnumber {
   color: #505050;
 }
 
-.site_menu_footer ul {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-}
-
-.site_menu_footer ul li {
-  display: inline-block;
-  text-align: center;
-  width: 200px;
-  padding: 2.5%;
-}
-
-.site_menu_footer ul li a {
-  display: inline-block;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #fff;
-}
-
-.site_menu_footer ul li a:hover {
-  color: #888;
-  border-bottom: solid 2px #ddd;
-}
-
-.site_menu_footer ul li a span {
-  display: block;
-  margin-top: 5%;
-  font-size: 0.75rem;
-}
-
 .copyright {
   display: inline-block;
   margin-top: 20px;
   text-align: center;
   width: 300px;
+  font-size: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -2052,32 +2010,6 @@ p.header_telnumber {
   background-size: cover;
   background-position: center;
   height: 40vh;
-}
-
-.access_top_txt {
-  display: inline-block;
-  width: 20%;
-  border-bottom: solid 2px #505050;
-  margin-left: 40%;
-  margin-top: 7%;
-  text-align: center;
-}
-
-.access_top_txt h1 {
-  font-size: 50px;
-  color: #9E7E44;
-}
-
-.access_top_sub {
-  display: inline-block;
-  width: 20%;
-  margin-left: 40%;
-  text-align: center;
-}
-
-.access_top_sub h2 {
-  font-size: 40px;
-  color: #9E7E44;
 }
 
 .portation {
@@ -2258,26 +2190,6 @@ p.header_telnumber {
   }
   .contact_area {
     padding: 5% 0;
-  }
-  .access_top_txt {
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-    border-bottom: none;
-  }
-  .access_top_txt h1 {
-    font-size: 36px;
-    position: absolute;
-    height: 60px;
-    top: 100px;
-    left: 35%;
-    border-bottom: solid 2px #505050;
-  }
-  .access_top_sub h2 {
-    font-size: 24px;
-    position: absolute;
-    height: 60px;
-    top: 180px;
   }
   .feature_title p {
     font-size: 24px;

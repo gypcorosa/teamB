@@ -665,7 +665,7 @@ a {
 .a_purpose {
     display: block;
     width: 90%;
-    height: 30vh;
+    height: 15vh;
     margin-left: 5%;
     &_title {
         display: inline-block;
@@ -700,7 +700,7 @@ a {
 .a_diagnosis {
     display: block;
     width: 90%;
-    height: 290vh;
+    height: 340vh;
     margin-left: 5%;
     
     &_title {
@@ -1113,6 +1113,12 @@ a {
     top: 18%;
 }
 
+.a_purpose_list_txt {
+ & p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -1162,7 +1168,7 @@ a {
     right: auto;
 }
 .a_diagnosis_list {
-    height: 275vh;
+    height: 290vh;
 }
 
 .price_list {
@@ -1176,20 +1182,16 @@ font-size: 16px;
 font-size: 16px;
 }
 
-// .contact_img {
-//     margin-top: 70vh;
-//     height: 250%;
-// }
+.a_purpose_list_txt {
+    & p {
+        font-size: 0.75rem;
+        margin-top: 0;
+    }
+}
 
-// .contact_btn {
-//     width: 100%;
-//     font-size: 24px;
-//     margin: 0 auto;
-// }
-
-// .contact_btn a {
-//     font-size: 36px;
-// }
+.price_list td.ca {
+        font-size: 1rem;
+}
 }
 
 ////////// ///////////ABOUTページ/////////////////
