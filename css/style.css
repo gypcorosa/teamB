@@ -770,7 +770,7 @@ a {
 .a_purpose {
   display: block;
   width: 90%;
-  height: 30vh;
+  height: 15vh;
   margin-left: 5%;
 }
 
@@ -817,7 +817,7 @@ a {
 .a_diagnosis {
   display: block;
   width: 90%;
-  height: 290vh;
+  height: 340vh;
   margin-left: 5%;
 }
 
@@ -1242,6 +1242,10 @@ a {
   .a_diagnosis_txt {
     top: 18%;
   }
+  .a_purpose_list_txt p {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1285,7 +1289,7 @@ a {
     right: auto;
   }
   .a_diagnosis_list {
-    height: 275vh;
+    height: 290vh;
   }
   .price_list {
     margin-top: 100%;
@@ -1295,6 +1299,13 @@ a {
   }
   .price_list table thead th {
     font-size: 16px;
+  }
+  .a_purpose_list_txt p {
+    font-size: 0.75rem;
+    margin-top: 0;
+  }
+  .price_list td.ca {
+    font-size: 1rem;
   }
 }
 
